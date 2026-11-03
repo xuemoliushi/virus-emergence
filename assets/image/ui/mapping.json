@@ -1,0 +1,409 @@
+{
+  "imported": 51,
+  "entries": [
+    {
+      "file": "frames/ui_action_button_normal.png",
+      "source": "C:\\Users\\q3382\\Desktop\\按钮\\ui_action_button_normal.png",
+      "sha256": "d23c9158504138aeb452fe74b5af4b2f90604e90a50e465a90d3a2dab6f5b06d",
+      "status": "ui skin"
+    },
+    {
+      "file": "frames/ui_dialog_panel_normal.png",
+      "source": "C:\\Users\\q3382\\Desktop\\按钮\\ui_dialog_panel_normal.png",
+      "sha256": "4af646d4250ce21187bf64aeec0b5b76ffac4b8a31351e519cee40be21ae91f6",
+      "status": "ui skin"
+    },
+    {
+      "file": "frames/ui_dropdown_field_normal.png",
+      "source": "C:\\Users\\q3382\\Desktop\\按钮\\ui_dropdown_field_normal.png",
+      "sha256": "a1572a5d996423557518e42087a06a8c4507cd04bf13cdb122bfa2e3574e138b",
+      "status": "ui skin"
+    },
+    {
+      "file": "frames/ui_ending_video_frame_normal.png",
+      "source": "C:\\Users\\q3382\\Desktop\\按钮\\ui_ending_video_frame_normal.png",
+      "sha256": "08d86b418e18674de526b4604675d2959b0c88a7d4ccf6030c9e3ff09d68266a",
+      "status": "reserved for later video"
+    },
+    {
+      "file": "frames/ui_hud_panel_normal.png",
+      "source": "C:\\Users\\q3382\\Desktop\\按钮\\ui_hud_panel_normal.png",
+      "sha256": "f76a0b53c4dff0cc5740a4c4b3cb428fbf002e612bf59b825c9e4247ce5ef05d",
+      "status": "ui skin"
+    },
+    {
+      "file": "frames/ui_joystick_base_normal.png",
+      "source": "C:\\Users\\q3382\\Desktop\\按钮\\ui_joystick_base_normal.png",
+      "sha256": "45a9c929d84f03b3339e759eb95d34c7dd4d9525a97d67f6248a141bed52a79e",
+      "status": "ui skin"
+    },
+    {
+      "file": "frames/ui_joystick_knob_normal.png",
+      "source": "C:\\Users\\q3382\\Desktop\\按钮\\ui_joystick_knob_normal.png",
+      "sha256": "1e60126d918c6b463cef6d0dde6f90f45014cb69dddcb4c2d97d6f9259587c9b",
+      "status": "ui skin"
+    },
+    {
+      "file": "frames/ui_keycap_normal.png",
+      "source": "C:\\Users\\q3382\\Desktop\\按钮\\ui_keycap_normal.png",
+      "sha256": "a016dd242b53927f02c5e73cc5f58a6ce4de82a63c19aceb4d52fb4ae48ca3ae",
+      "status": "ui skin"
+    },
+    {
+      "file": "frames/ui_menu_button_normal.png",
+      "source": "C:\\Users\\q3382\\Desktop\\按钮\\ui_menu_button_normal.png",
+      "sha256": "37ca9024f1ad1f3c90fd47f2c0149c07aadab6ee7c2c442f9365054d2d648415",
+      "status": "ui skin"
+    },
+    {
+      "file": "frames/ui_minimap_frame_normal.png",
+      "source": "C:\\Users\\q3382\\Desktop\\按钮\\ui_minimap_frame_normal.png",
+      "sha256": "eeaadf7e533cf7d35d9efa537fed9c37544dda7737089a7b89592c27ad2c0689",
+      "status": "ui skin"
+    },
+    {
+      "file": "frames/ui_primary_button_normal.png",
+      "source": "C:\\Users\\q3382\\Desktop\\按钮\\ui_primary_button_normal.png",
+      "sha256": "e4a270bd223686f74af5979e5084998ccdb0f5ec36c22fb95d0ecf01f98cd7b0",
+      "status": "ui skin"
+    },
+    {
+      "file": "frames/ui_progress_fill_normal.png",
+      "source": "C:\\Users\\q3382\\Desktop\\按钮\\ui_progress_fill_normal.png",
+      "sha256": "838fcc7587b204e5a45ac1ab5a3a7545fd71fa1711c4e42fe82d2390c1a30547",
+      "status": "ui skin"
+    },
+    {
+      "file": "frames/ui_progress_track_normal.png",
+      "source": "C:\\Users\\q3382\\Desktop\\按钮\\ui_progress_track_normal.png",
+      "sha256": "351785d3beb513a193cd0c578bc93bb9c81c85edbbfefd1e2ee6432d66afa429",
+      "status": "ui skin"
+    },
+    {
+      "file": "frames/ui_scroll_thumb_normal.png",
+      "source": "C:\\Users\\q3382\\Desktop\\按钮\\ui_scroll_thumb_normal.png",
+      "sha256": "d2c1c2c2a7cbe78fe00241fe15f32d5ba7f046ebc6534aa56ba7d36791df0f61",
+      "status": "ui skin"
+    },
+    {
+      "file": "frames/ui_secondary_button_normal.png",
+      "source": "C:\\Users\\q3382\\Desktop\\按钮\\ui_secondary_button_normal.png",
+      "sha256": "302a9e072ff94ba8989bb62728a71a3ea2de00456904e4e15496e0e22fbe32f5",
+      "status": "ui skin"
+    },
+    {
+      "file": "frames/ui_skill_row_gold_192x64.png",
+      "source": "C:\\Users\\q3382\\Desktop\\按钮\\ui_skill_row_gold_192x64.png",
+      "sha256": "0f4efd3af0887f970e6f1a231b20f8695efb041ee22bb3340884c2132fc16bcf",
+      "status": "ui skin"
+    },
+    {
+      "file": "frames/ui_slider_thumb_normal.png",
+      "source": "C:\\Users\\q3382\\Desktop\\按钮\\ui_slider_thumb_normal.png",
+      "sha256": "9cbf658c9c82f4bf9654870462f22f25d8dc2d937430594cde5000e2a8b8faef",
+      "status": "ui skin"
+    },
+    {
+      "file": "frames/ui_slider_track_normal.png",
+      "source": "C:\\Users\\q3382\\Desktop\\按钮\\ui_slider_track_normal.png",
+      "sha256": "dcf776d5bea8ec7cec30f827c2c9b0f4f76fc619fae9dc5f471a4fe76eb93aec",
+      "status": "ui skin"
+    },
+    {
+      "file": "frames/ui_square_button_normal.png",
+      "source": "C:\\Users\\q3382\\Desktop\\按钮\\ui_square_button_normal.png",
+      "sha256": "89eba2cf2cfbe41879ea6322d7b10d142b4212eba38b6c6c80aa5a6a4e7f55da",
+      "status": "ui skin"
+    },
+    {
+      "file": "frames/ui_swarm_button_normal.png",
+      "source": "C:\\Users\\q3382\\Desktop\\按钮\\ui_swarm_button_normal.png",
+      "sha256": "5f6acde47982d8ddc9ae32bb1412672bb0c07452f9cdfc54aac1f23dea5475d6",
+      "status": "ui skin"
+    },
+    {
+      "file": "frames/ui_title_ornament_normal.png",
+      "source": "C:\\Users\\q3382\\Desktop\\按钮\\ui_title_ornament_normal.png",
+      "sha256": "8352ec60db2d1e1f0fcb0ed8be0251b5381d14003f0d5df5f0196513c30c1926",
+      "status": "ui skin"
+    },
+    {
+      "file": "frames/ui_toggle_thumb_normal.png",
+      "source": "C:\\Users\\q3382\\Desktop\\按钮\\ui_toggle_thumb_normal.png",
+      "sha256": "ea068042e15dd876a39e5f2ea8d74a7469f1200cc08987e57183ccedd2454728",
+      "status": "ui skin"
+    },
+    {
+      "file": "frames/ui_toggle_track_normal.png",
+      "source": "C:\\Users\\q3382\\Desktop\\按钮\\ui_toggle_track_normal.png",
+      "sha256": "6081e82af547d639a2c285c69acd548feae890c6d583ef603175b29813eca48d",
+      "status": "ui skin"
+    },
+    {
+      "file": "frames/ui_tooltip_panel_normal.png",
+      "source": "C:\\Users\\q3382\\Desktop\\按钮\\ui_tooltip_panel_normal.png",
+      "sha256": "a0a443330f4a5c1c115101fd9813cce7f45232da32b1f8b10e152d54ea36954a",
+      "status": "ui skin"
+    },
+    {
+      "file": "icons/icon_ability_menu.png",
+      "source": "C:\\Users\\q3382\\Desktop\\UI\\icon_ability_menu.png",
+      "sha256": "1d2b8bfb274926a7cc5b5652d0c69b18f91e4f0c022c9774284fc6b815a975ff",
+      "status": "ui skin"
+    },
+    {
+      "file": "icons/icon_absorb.png",
+      "source": "C:\\Users\\q3382\\Desktop\\UI\\icon_absorb.png",
+      "sha256": "3102f8e1337ecf0d45e7f0e6d2f5e206509e9154b78fed1e04881a9ff051ab7c",
+      "status": "ui skin"
+    },
+    {
+      "file": "icons/icon_back.png",
+      "source": "C:\\Users\\q3382\\Desktop\\UI\\icon_back.png",
+      "sha256": "c15454946fce4d7da8a8f782b87a8e3fec4da336956376c9c764409a9732973e",
+      "status": "ui skin"
+    },
+    {
+      "file": "icons/icon_close.png",
+      "source": "C:\\Users\\q3382\\Desktop\\UI\\icon_close.png",
+      "sha256": "0892bcb75e6461ecafae66d7681e0d17496d5db1523308a5c553364ea7f4304d",
+      "status": "ui skin"
+    },
+    {
+      "file": "icons/icon_cluster_dispatch.png",
+      "source": "C:\\Users\\q3382\\Desktop\\UI\\icon_cluster_dispatch.png",
+      "sha256": "dbb0a35193f1ce448a9043ff5029c355a02ae57af0176e96ea207c19ac81208e",
+      "status": "ui skin"
+    },
+    {
+      "file": "icons/icon_debris_camouflage.png",
+      "source": "C:\\Users\\q3382\\Desktop\\UI\\icon_debris_camouflage.png",
+      "sha256": "06d2b258ff0d4bab0f2a2b1fd8c62e49597228301ff02b1892a886e3c8f9edd3",
+      "status": "ui skin"
+    },
+    {
+      "file": "icons/icon_discrete_recall.png",
+      "source": "C:\\Users\\q3382\\Desktop\\UI\\icon_discrete_recall.png",
+      "sha256": "893f546e34be0d127b6597ba1133089dcc82f6a2bc0e487f999cb10c77e3c07a",
+      "status": "ui skin"
+    },
+    {
+      "file": "icons/icon_emergency_dash.png",
+      "source": "C:\\Users\\q3382\\Desktop\\UI\\icon_emergency_dash.png",
+      "sha256": "526284a59643713acb3c692835d0f7266facddced51191b5a1dbab46b690ef9f",
+      "status": "ui skin"
+    },
+    {
+      "file": "icons/icon_infection_trail.png",
+      "source": "C:\\Users\\q3382\\Desktop\\UI\\icon_infection_trail.png",
+      "sha256": "90078ad3e6041ab58750314a7ab2d5dbea1a93de5f1b6dbf561bdd6cdd969214",
+      "status": "ui skin"
+    },
+    {
+      "file": "icons/icon_local_flow.png",
+      "source": "C:\\Users\\q3382\\Desktop\\UI\\icon_local_flow.png",
+      "sha256": "ec7e02ee511505b02b40ea33a5afe7cd3c20ed1ba22020997323836ef7bdecae",
+      "status": "ui skin"
+    },
+    {
+      "file": "icons/icon_membrane_glide.png",
+      "source": "C:\\Users\\q3382\\Desktop\\UI\\icon_membrane_glide.png",
+      "sha256": "48aa6ff9c2404db12fc1867d591ee5f4f55f2fa3bc17473f32dd32198282530e",
+      "status": "ui skin"
+    },
+    {
+      "file": "icons/icon_menu.png",
+      "source": "C:\\Users\\q3382\\Desktop\\UI\\icon_menu.png",
+      "sha256": "ec4124907bba8cae1747e6829aa941f44d848fe83267500f4dc692b3bafd3067",
+      "status": "ui skin"
+    },
+    {
+      "file": "icons/icon_merge_seed.png",
+      "source": "C:\\Users\\q3382\\Desktop\\UI\\icon_merge_seed.png",
+      "sha256": "38b779fb9acc74e5fc1fa34533cd64cc29eab21f55e65806dfa5f59881f2126d",
+      "status": "ui skin"
+    },
+    {
+      "file": "icons/icon_node_cover.png",
+      "source": "C:\\Users\\q3382\\Desktop\\UI\\icon_node_cover.png",
+      "sha256": "ddaa88f0ffebb8a6af9503b0ff5f131088a48876362747ca54cf0ad2af8a2779",
+      "status": "ui skin"
+    },
+    {
+      "file": "icons/icon_node_hide.png",
+      "source": "C:\\Users\\q3382\\Desktop\\UI\\icon_node_hide.png",
+      "sha256": "f8de0795cae407533824c1b38ce557a9139a325808d3a8e6db29a9559ea1717f",
+      "status": "ui skin"
+    },
+    {
+      "file": "icons/icon_node_takeover.png",
+      "source": "C:\\Users\\q3382\\Desktop\\UI\\icon_node_takeover.png",
+      "sha256": "e18353b734d626074fd7e1f31e2bb685813e7cfcd7e60e1e86079d871ef51aa2",
+      "status": "ui skin"
+    },
+    {
+      "file": "icons/icon_restart.png",
+      "source": "C:\\Users\\q3382\\Desktop\\UI\\icon_restart.png",
+      "sha256": "f6c60923d6b5e1d83a97dfab0bba86ed62266d88c29c51a771c89bd637c125c9",
+      "status": "ui skin"
+    },
+    {
+      "file": "icons/icon_rupture_spread.png",
+      "source": "C:\\Users\\q3382\\Desktop\\UI\\icon_rupture_spread.png",
+      "sha256": "e90dd7e0d82e44fe29ae60bd10b8cdf73f9c1b187dbb5723b75786cd0769b68e",
+      "status": "ui skin"
+    },
+    {
+      "file": "icons/icon_settings.png",
+      "source": "C:\\Users\\q3382\\Desktop\\UI\\icon_settings.png",
+      "sha256": "3989f57683e493e21981dd6264c6ec003cc518f6aed34b024f5176b5b1fc4ec2",
+      "status": "ui skin"
+    },
+    {
+      "file": "icons/icon_shed_decoy.png",
+      "source": "C:\\Users\\q3382\\Desktop\\UI\\icon_shed_decoy.png",
+      "sha256": "15e5304fee326c911d6f663f7364ff1c36b5da0c1446dc4fc6f44b9e734f82df",
+      "status": "ui skin"
+    },
+    {
+      "file": "icons/icon_split.png",
+      "source": "C:\\Users\\q3382\\Desktop\\UI\\icon_split.png",
+      "sha256": "58c46853c99c984aa1532474a830d650b62dacee83b3642d4ea6118eaf848b3b",
+      "status": "ui skin"
+    },
+    {
+      "file": "icons/icon_swarm_anchor.png",
+      "source": "C:\\Users\\q3382\\Desktop\\UI\\icon_swarm_anchor.png",
+      "sha256": "06c9831baba1c900717ee0f4756ec78205cf3017b64f13d11e2bd1639fbc1ba5",
+      "status": "ui skin"
+    },
+    {
+      "file": "icons/icon_swarm_capacity_4.png",
+      "source": "C:\\Users\\q3382\\Desktop\\UI\\icon_swarm_capacity_4.png",
+      "sha256": "0bf6962b5fdcf823ade79c575ef96a33720f4f1f2df1f2800686233daf094bcb",
+      "status": "ui skin"
+    },
+    {
+      "file": "icons/icon_swarm_capacity_6.png",
+      "source": "C:\\Users\\q3382\\Desktop\\UI\\icon_swarm_capacity_6.png",
+      "sha256": "002fc78b466a02c66510cc89aab4b7eb48168a2f832f873c739c03715d7fb416",
+      "status": "ui skin"
+    },
+    {
+      "file": "icons/icon_swarm_local_brain.png",
+      "source": "C:\\Users\\q3382\\Desktop\\UI\\icon_swarm_local_brain.png",
+      "sha256": "d59d8142b27519bf48d2f0341661c40c25da40bb901d5fb7442a2a06291b570b",
+      "status": "ui skin"
+    },
+    {
+      "file": "icons/icon_switch_swarm.png",
+      "source": "C:\\Users\\q3382\\Desktop\\UI\\icon_switch_swarm.png",
+      "sha256": "61b6941120e53e66595424dcf99b3624a4494b18aeb1a488ea62203de8670fe7",
+      "status": "ui skin"
+    },
+    {
+      "file": "icons/icon_tail_preserve.png",
+      "source": "C:\\Users\\q3382\\Desktop\\UI\\icon_tail_preserve.png",
+      "sha256": "a740e384019798b21cd26bbde5d2dd82149059e80b3b507b68acd8cbc7ed8c13",
+      "status": "ui skin"
+    }
+  ],
+  "displayDerivatives": [
+    {
+      "file": "scaled/ui_action_button_normal.png",
+      "source": "frames/ui_action_button_normal.png",
+      "scale": 0.5,
+      "sha256": "5388d08fe10cad196589de5bd1e5c48d04a4af661139febb7ede40e9d1125a44"
+    },
+    {
+      "file": "scaled/ui_menu_button_normal.png",
+      "source": "frames/ui_menu_button_normal.png",
+      "scale": 0.5625,
+      "sha256": "f414ad557066d720a01af0c3e55ec63872a40e91d81ef9da8d88c2baef254744"
+    },
+    {
+      "file": "scaled/ui_primary_button_normal.png",
+      "source": "frames/ui_primary_button_normal.png",
+      "scale": 0.5,
+      "sha256": "80205ecccbf4e416085ac335cf4dc28d264277a41a29545fa078f48521428ed0"
+    },
+    {
+      "file": "scaled/ui_secondary_button_normal.png",
+      "source": "frames/ui_secondary_button_normal.png",
+      "scale": 0.5,
+      "sha256": "fda1888c09e34ebd3f59ded8c0c2a93da5393887b816b6f807d3d3d1e0c1cf62"
+    },
+    {
+      "file": "scaled/ui_swarm_button_normal.png",
+      "source": "frames/ui_swarm_button_normal.png",
+      "scale": 0.5,
+      "sha256": "65563ff7b7db4dfc49364b9ec0493ab514b004be0837b66a6349ffc3004d60eb"
+    },
+    {
+      "file": "scaled/ui_square_button_normal.png",
+      "source": "frames/ui_square_button_normal.png",
+      "scale": 0.34375,
+      "sha256": "b7dd47103e764b35214cd586bed58de8b2234b7c27d14e4d4541766546c4b851"
+    },
+    {
+      "file": "scaled/ui_skill_row_gold_192x64.png",
+      "source": "frames/ui_skill_row_gold_192x64.png",
+      "scale": 1,
+      "sha256": "0f4efd3af0887f970e6f1a231b20f8695efb041ee22bb3340884c2132fc16bcf"
+    },
+    {
+      "file": "scaled/ui_hud_panel_normal.png",
+      "source": "frames/ui_hud_panel_normal.png",
+      "scale": 0.5,
+      "sha256": "124912fda97aa89b4f0423e39eb697a5f5298f40a6f0879fa1e1a50b0bd6bcbf"
+    },
+    {
+      "file": "scaled/ui_dialog_panel_normal.png",
+      "source": "frames/ui_dialog_panel_normal.png",
+      "scale": 0.5,
+      "sha256": "cb4296b569baba1e60d2f31fdd7ad574636a4588de8c8a7b76e29e306d468c04"
+    },
+    {
+      "file": "scaled/ui_tooltip_panel_normal.png",
+      "source": "frames/ui_tooltip_panel_normal.png",
+      "scale": 0.5,
+      "sha256": "7d8543ca9617f86cc6992a2c62b642bd0f13e5cb8c642ab1495598b722659dbc"
+    },
+    {
+      "file": "scaled/ui_minimap_frame_normal.png",
+      "source": "frames/ui_minimap_frame_normal.png",
+      "scale": 0.5,
+      "sha256": "e430cb0a043737e2de5857ce8cf6bdc37dd85cc56c6647674ab8518abb53a245"
+    },
+    {
+      "file": "scaled/ui_slider_track_normal.png",
+      "source": "frames/ui_slider_track_normal.png",
+      "scale": 0.20833333333333334,
+      "sha256": "10f444bd2c1cf3926efc4286edf8d476f2296f3273eb08005797a22e9ff486a8"
+    },
+    {
+      "file": "scaled/ui_scroll_thumb_normal.png",
+      "source": "frames/ui_scroll_thumb_normal.png",
+      "scale": 0.3125,
+      "sha256": "62b10e32b96fd12e98a87b69780e52d99bbdce019e87d13631de1b06141c2ced"
+    },
+    {
+      "file": "scaled/ui_progress_track_normal.png",
+      "source": "frames/ui_progress_track_normal.png",
+      "scale": 0.21875,
+      "sha256": "53a2641f553b1f843e0ce1efb82cc5a2ddb957880d2dcbd86a88f9d407c8963e"
+    },
+    {
+      "file": "scaled/ui_dropdown_field_normal.png",
+      "source": "frames/ui_dropdown_field_normal.png",
+      "scale": 0.5,
+      "sha256": "e09a974e1ce3ea1f2afa1946154defc856857423a36bc035c66df716f3559288"
+    },
+    {
+      "file": "scaled/ui_keycap_normal.png",
+      "source": "frames/ui_keycap_normal.png",
+      "scale": 0.28125,
+      "sha256": "66cd4d02fd7441e44c559109fc65a91e77535afff0757cb0b400e0ea23c9606a"
+    }
+  ]
+}
