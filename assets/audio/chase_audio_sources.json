@@ -1,0 +1,20 @@
+[
+  {
+    "original": "过渡音效.wav",
+    "file": "chase_transition.wav",
+    "sha256": "da9fe612943491a9f036672ddcdeedc5e3941b4b97bb9fdae03b84340fc90507",
+    "duration": 0.34505668934240363,
+    "sample_rate": 44100,
+    "channels": 2,
+    "sample_width": 2
+  },
+  {
+    "original": "一段噗.wav",
+    "file": "chase_heartbeat.wav",
+    "sha256": "430b9391f96e64adae4f8d3b4e2faf0e47e18074259052d5a69edf4bc0194d11",
+    "duration": 0.44117913832199546,
+    "sample_rate": 44100,
+    "channels": 2,
+    "sample_width": 2
+  }
+]
