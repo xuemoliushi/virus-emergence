@@ -1,0 +1,28 @@
+{
+  "$schema": "../schemas/resources.schema.json",
+
+  "preload_groups": [
+    "cell_surface_render"
+  ],
+
+  "groups": {
+    "default": [
+      "**"
+    ],
+    "cell_surface_render": [
+      "image/cell_surface_atlas/manifest.json",
+      "image/cell_surface_atlas/stack_v2_page_*.png",
+      "image/cell_body.png",
+      "image/cell_membrane.png",
+      "image/cell_vacuole.png",
+      "image/latent_particles_meta.json",
+      "image/latent_particle_dim.png",
+      "image/latent_particle_normal.png",
+      "image/latent_particle_bright.png",
+      "image/integrated/tissue_base_seamless.png",
+      "image/flow_bed_decal.png.png",
+      "image/attachment_glint.png",
+      "image/infection_block_flat.png"
+    ]
+  }
+}

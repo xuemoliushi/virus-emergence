@@ -1,0 +1,20 @@
+Cinematic editorial animation still, refined monochrome silhouette design,
+warm ivory background #F4F2EC, near-black subject #101010, restrained pale grey
+#C8C5BD, subtle paper grain, elegant negative space, stable clean contours,
+believable anatomy, carefully designed composition, 16:9, 1920x1080,
+no text, no subtitles, no logos, no watermark, no UI, no random objects.
+Use the uploaded BIRD_A reference as the exact bird design.
+Use flock_fall.webm only as a motion reference for density, coordinated turning,
+contraction and expansion. Do not copy its interface, colors, text or watermark.
+
+Create a wide cinematic aerial composition with two clearly separated groups of
+the same bird species. In the upper third, a distant flock forms a loose elongated
+stream. In the lower half, a nearer flock forms a dense but readable fluid cloud,
+with individual birds still distinguishable. Leave a large ivory gap between the
+two groups.
+
+The main BIRD_A is one identifiable bird near the lower edge of the nearer flock,
+without glowing outlines or color markers. The flock is beginning a coordinated
+turn: the front birds have already turned while the rear birds are responding with
+a slight delay. Birds have varied wing phases and natural spacing.
+Elegant graphic silhouette animation design, no text, no extra species.

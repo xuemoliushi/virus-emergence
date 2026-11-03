@@ -1,0 +1,18 @@
+Cinematic editorial animation still, refined monochrome silhouette design,
+warm ivory background #F4F2EC, near-black subject #101010, restrained pale grey
+#C8C5BD, subtle paper grain, elegant negative space, stable clean contours,
+believable anatomy, carefully designed composition, 16:9, 1920x1080,
+no text, no subtitles, no logos, no watermark, no UI, no random objects.
+Use the uploaded K06 city image as the exact location and architecture reference.
+
+A slightly elevated top-down cinematic view of the same four-way intersection.
+The roads, crosswalks and building positions must remain geometrically consistent.
+A car slows before the crosswalk while one pedestrian crosses. Two pedestrians meet
+at a corner and then begin walking together. A second car turns carefully into a
+side street.
+
+The actions should be staggered and readable, showing small local rules:
+yielding, crossing, meeting, walking together and turning. Use tiny black human and
+vehicle silhouettes with believable spacing. Keep the camera nearly still, with
+only a very slow upward drift. Refined graphic city animation style, no text,
+no signs, no logos, no futuristic interface.

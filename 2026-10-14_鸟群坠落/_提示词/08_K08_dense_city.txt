@@ -1,0 +1,17 @@
+Cinematic editorial animation still, refined monochrome silhouette design,
+warm ivory background #F4F2EC, near-black subject #101010, restrained pale grey
+#C8C5BD, subtle paper grain, elegant negative space, stable clean contours,
+believable anatomy, carefully designed composition, 16:9, 1920x1080,
+no text, no subtitles, no logos, no watermark, no UI, no random objects.
+Use the previous intersection image as a strict geographic continuity reference.
+
+Continue rising vertically from the same intersection. The original crosswalk and
+road junction must remain traceable for the first part of the frame, then gradually
+become smaller as dense connected neighborhoods, side streets, traffic lines and
+building clusters expand around it.
+
+The city should feel organically dense rather than a perfect repeated grid:
+different block sizes, several broad roads, quieter residential areas and busier
+arteries. Pale grey distant buildings create atmospheric depth while black roads
+and activity remain readable. The camera movement is a smooth controlled ascent,
+not a sudden zoom or morph. No text, no labels, no holograms.

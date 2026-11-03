@@ -1,0 +1,14 @@
+Cinematic editorial animation still, refined monochrome silhouette design,
+warm ivory background #F4F2EC, near-black subject #101010, restrained pale grey
+#C8C5BD, subtle paper grain, elegant negative space, stable clean contours,
+believable anatomy, carefully designed composition, 16:9, 1920x1080,
+no text, no subtitles, no logos, no watermark, no UI, no random objects.
+Use the attached Earth image as the exact planet design: keep its continents, oceans, cloud pattern and silhouette recognizable. Do not redesign the world.
+
+The same complete black Earth with pale continents, seen straight on against a warm ivory background, centered in frame. The only change is scale: the globe is now larger, its diameter spanning roughly nine tenths of the frame height, which makes this the largest complete view of the planet in the sequence.
+
+Keep a thin, even, clean margin of warm ivory all around the sphere, so the whole globe and its atmosphere rim stay fully visible and never touch the frame edge. A faint atmospheric haze hugs the curved limb.
+
+This must read as a very smooth, controlled editorial scale change: a slightly closer view of the same planet, not a different world and not a newly invented design.
+
+Do not add text, subtitles, titles, letters, logos, UI, stars, satellites, light beams or science-fiction interfaces. Clean refined silhouette design, near-black planet, pale continents, restrained pale grey atmosphere, subtle paper grain, 16:9.

@@ -1,0 +1,17 @@
+Cinematic editorial animation still, refined monochrome silhouette design,
+warm ivory background #F4F2EC, near-black subject #101010, restrained pale grey
+#C8C5BD, subtle paper grain, elegant negative space, stable clean contours,
+believable anatomy, carefully designed composition, 16:9, 1920x1080,
+no text, no subtitles, no logos, no watermark, no UI, no random objects.
+Using the uploaded BIRD_A character reference as an identity lock, create a clean
+animation keyframe strip for one bird flying from left to right.
+
+Show eight evenly spaced keyframes of the same bird:
+full upstroke, transition down, full downstroke, level glide, second upstroke,
+weakened stroke, loss of lift, passive diagonal fall.
+
+The body shape, head, beak, tail and wing attachment must remain identical.
+Only wing angle, body pitch and position change. The final two poses must clearly
+stop active flapping and enter gravity-driven falling. Sophisticated graphic
+silhouette animation design, near-black bird, subtle dark-grey feather planes,
+warm ivory background, no text, no labels, no watermark.

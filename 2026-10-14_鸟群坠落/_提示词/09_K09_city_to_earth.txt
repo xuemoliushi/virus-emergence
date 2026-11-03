@@ -1,0 +1,18 @@
+Cinematic editorial animation still, refined monochrome silhouette design,
+warm ivory background #F4F2EC, near-black subject #101010, restrained pale grey
+#C8C5BD, subtle paper grain, elegant negative space, stable clean contours,
+believable anatomy, carefully designed composition, 16:9, 1920x1080,
+no text, no subtitles, no logos, no watermark, no UI, no random objects.
+Use the previous dense-city image as the scale and anchor reference.
+
+Continue pulling upward from the city. Keep the original intersection as one
+traceable point while the city compresses into a compact urban texture. Reveal a
+curved continental shape around that point using a deliberate graphic mask, then
+resolve into one complete black Earth with recognizable pale continents against
+warm ivory space.
+
+The transition must be a controlled editorial scale change:
+city texture -> continental curvature -> complete Earth.
+Do not melt buildings into a sphere. Do not create science-fiction interfaces,
+light beams or stars. Hold the Earth centered with generous empty space below for
+a title added later. Clean refined silhouette design, no text or watermark.

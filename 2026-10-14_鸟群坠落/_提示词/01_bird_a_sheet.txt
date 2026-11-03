@@ -1,0 +1,28 @@
+Cinematic editorial animation still, refined monochrome silhouette design,
+warm ivory background #F4F2EC, near-black subject #101010, restrained pale grey
+#C8C5BD, subtle paper grain, elegant negative space, stable clean contours,
+believable anatomy, carefully designed composition, 16:9, 1920x1080,
+no text, no subtitles, no logos, no watermark, no UI, no random objects.
+Create the definitive character reference sheet for one recurring bird named BIRD_A.
+
+A small flocking aerial bird with a compact aerodynamic torso, short tapered beak,
+slightly rounded head, long pointed wings, short slightly forked tail, and elegant
+stable proportions. It must look like a believable real flying bird translated into
+a sophisticated graphic silhouette, not a logo or icon.
+
+Use a near-black silhouette with a few restrained dark-grey internal feather planes:
+subtle primary-feather separations, a clean shoulder joint, a readable belly contour,
+and a clear wing root. Keep the design minimal but anatomically convincing.
+No eye, no facial expression, no colorful feathers.
+
+Show the same bird at identical scale in six separate uncluttered poses:
+1. wings fully raised,
+2. wings fully lowered,
+3. wings extended in a level glide,
+4. banking slightly upward,
+5. banking slightly downward,
+6. passive uncontrolled falling pose with slack wings.
+
+Side-facing toward the right in every pose. Keep head, torso, beak and tail
+identical in all poses. Place each pose separately on a warm ivory background with
+ample space between them. No labels or written annotations.

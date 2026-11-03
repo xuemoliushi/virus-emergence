@@ -1,0 +1,47 @@
+{
+  "$schema": "../schemas/project.schema.json",
+  "project_id": "m_m3y3",
+  "author": {
+    "id": "1892577455"
+  },
+  "entry": "main.lua",
+  "version": "1.0.11",
+  "taptap_publish": {
+    "title": "病毒涌现",
+    "description": "病毒，生长，感染，繁殖，涌现，在这里我们从病毒开始，从天空开始，但又不只是病毒\n《病毒涌现》是一款模拟操作病毒繁殖涌现周期的游戏。你作为病毒，首要任务就是保证自身的存活，再者就是扩大自己的领地，维系繁殖—基因的本能，直至坠落。但当你赖以生存的天空被自己侵蚀，你又将坠落在何方...",
+    "category": "casual",
+    "screen_orientation": "landscape",
+    "collection_type": "sce",
+    "trial_note": "这个游戏倾注了我们小组的心血希望大家玩得开心",
+    "app_platforms": "1,2",
+    "app_id": 953879,
+    "developer_id": 477607,
+    "miniapp_id": "tapmcfuqlbmrywolpk",
+    "gameplay_demo_video_source": "https://tapcode-sce.spark.xd.com/videos/5d2653d4-25d2-4c2c-8eb8-3c2c30f68333/1792330373884-uploaded_604a82a6.mp4",
+    "release_phase": "official"
+  },
+  "assets": {
+    "icon": "./game_material/ICON_2026-10-18T09-06-39_01.png",
+    "screenshots": [
+      "./_uploads/082e9d0b6caaa391d2ef230180b72a0b841174db638827fdf96aff831b792f23.jpg",
+      "./_uploads/2cfe20dfdab512b54db62c26a2a50b91171d3ff171f07ffe1d4c462d9e17876e.jpg",
+      "./_uploads/ae2695e3a42049654e32cc62b00ae96c7d4d16fffd538e236a96dc4703a66d0c.jpg"
+    ],
+    "promotional_image": "./_uploads/061390cd0ecea1e48da1494367b9bb085e89fdbee67aa907b06d28f9cc4c06b7.jpg",
+    "promotional_image_url": "https://tapcode-sce.spark.xd.com/assets/game_material/m_m3y3/061390cd0ecea1e48da1494367b9bb085e89fdbee67aa907b06d28f9cc4c06b7.jpg",
+    "icon_url": "https://tapcode-sce.spark.xd.com/assets/game_material/病毒涌现/ICON_2026-10-18T09-06-39_01.png",
+    "screenshot_urls": [
+      "https://tapcode-sce.spark.xd.com/assets/game_material/m_m3y3/082e9d0b6caaa391d2ef230180b72a0b841174db638827fdf96aff831b792f23.jpg",
+      "https://tapcode-sce.spark.xd.com/assets/game_material/m_m3y3/2cfe20dfdab512b54db62c26a2a50b91171d3ff171f07ffe1d4c462d9e17876e.jpg",
+      "https://tapcode-sce.spark.xd.com/assets/game_material/m_m3y3/ae2695e3a42049654e32cc62b00ae96c7d4d16fffd538e236a96dc4703a66d0c.jpg"
+    ],
+    "cover_vertical": "./.project/game_material/COVER_VERTICAL_2026-10-21T02-41-30_01.png",
+    "cover_vertical_url": "https://tapcode-sce.spark.xd.com/assets/game_material/病毒涌现/COVER_VERTICAL_2026-10-21T02-41-30_01.png",
+    "cover_horizontal": "./.project/game_material/COVER_HORIZONTAL_2026-10-21T02-41-30_01.png",
+    "cover_horizontal_url": "https://tapcode-sce.spark.xd.com/assets/game_material/病毒涌现/COVER_HORIZONTAL_2026-10-21T02-41-30_01.png"
+  },
+  "metadata": {
+    "updated_at": "2026-10-21T02:47:28.859Z",
+    "promo_dependent_hash": "270def94adbcb5f773af02980c948718"
+  }
+}

@@ -1,0 +1,17 @@
+Cinematic editorial animation still, refined monochrome silhouette design,
+warm ivory background #F4F2EC, near-black subject #101010, restrained pale grey
+#C8C5BD, subtle paper grain, elegant negative space, stable clean contours,
+believable anatomy, carefully designed composition, 16:9, 1920x1080,
+no text, no subtitles, no logos, no watermark, no UI, no random objects.
+Use the uploaded BIRD_A reference as the exact character identity.
+
+A single BIRD_A flies from left to right across a vast pale ivory sky.
+The bird is large enough to read clearly, placed slightly right of center,
+with generous negative space around it. Its wings are in a graceful mid-downstroke,
+showing believable lift and body balance. Pale grey atmospheric layers are barely
+visible in the far distance.
+
+The composition must feel like a calm cinematic tracking shot:
+the bird remains stable while the background drifts subtly.
+Refined black silhouette with restrained internal feather contour planes,
+not a crude flat icon. No flock, no city, no cloud wall, no text.

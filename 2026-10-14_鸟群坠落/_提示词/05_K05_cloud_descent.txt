@@ -1,0 +1,18 @@
+Cinematic editorial animation still, refined monochrome silhouette design,
+warm ivory background #F4F2EC, near-black subject #101010, restrained pale grey
+#C8C5BD, subtle paper grain, elegant negative space, stable clean contours,
+believable anatomy, carefully designed composition, 16:9, 1920x1080,
+no text, no subtitles, no logos, no watermark, no UI, no random objects.
+Create a cinematic top-down aerial view looking downward through a deep layered
+cloud system.
+
+The camera feels like a slow drone descending from high altitude. Several layers
+of pale grey clouds have real depth and different scales: distant cloud fields move
+slowly, nearer soft cloud layers pass more quickly across the frame. Open gaps reveal
+a faint warm ivory atmosphere and a barely visible geometric ground far below.
+
+The composition must create a strong vertical descent from sky toward Earth.
+Clouds should be volumetric and layered, not flat horizontal strips. Keep a clear
+central downward path for a falling bird, but do not show the bird in this image.
+Minimal black, ivory and pale grey editorial silhouette style, subtle paper texture,
+no text, no city yet, no fantasy lightning.

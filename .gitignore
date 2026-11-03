@@ -1,0 +1,35 @@
+# Local credentials, services and build outputs
+.git/
+.tmp/
+.maker-mcp/
+.maker/
+.cli/
+.codex/
+.claude/
+.agents/
+.opencode/
+.vscode/
+.build/
+dist/
+logs/
+*.log
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.DS_Store
+# Engine SDK and runtime installation are restored separately.
+engine-docs/
+editor-docs/
+examples/
+templates/
+urhox-libs/
+.emmylua/
+tools/
+skills/
+schemas/
+# Local diagnostic screenshots and duplicate working copies.
+validation/
+backups/
+_uploads/
