@@ -1,0 +1,211 @@
+{
+  "clips": {
+    "intro": {
+      "path": "audio/tutorial/intro.wav",
+      "text": "你，现在是一个流感病毒",
+      "seconds": 3.622312925170068,
+      "source": "你，现在是一个流感病毒”).wav",
+      "sha256": "ce414ca44e3a7ab5aa8d02c1abc496dcbd421600952d4156bc9985928f75dd31",
+      "frames": 159744,
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidth": 2
+    },
+    "healthy_cell": {
+      "path": "audio/tutorial/healthy_cell.wav",
+      "text": "这是正常细胞",
+      "seconds": 2.948934240362812,
+      "source": "“这是正常细胞”.wav",
+      "sha256": "9a9712166749f17fd0a8dbd75f4f4cb7bac7411801b1b01cd40bb4039b248552",
+      "frames": 130048,
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidth": 2
+    },
+    "contact_infection": {
+      "path": "audio/tutorial/contact_infection.wav",
+      "text": "在接触到它们一定时间后，它们就会被感染",
+      "seconds": 7.174965986394557,
+      "source": "“在接触到它们一定时间后，它们就会被感染”.wav",
+      "sha256": "f7de1c1208a0241ee9ce8afd78d7a00c2b0d081088ef5323cacbdb08ba95abe6",
+      "frames": 316416,
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidth": 2
+    },
+    "try_infection": {
+      "path": "audio/tutorial/try_infection.wav",
+      "text": "先来尝试感染它们吧",
+      "seconds": 5.38702947845805,
+      "source": "“先来尝试感染它们吧”.wav",
+      "sha256": "951e06e4cf21bb772aa183f204c5417701630abd325a112b60c31db4f5a440e5",
+      "frames": 237568,
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidth": 2
+    },
+    "release": {
+      "path": "audio/tutorial/release.wav",
+      "text": "细胞感染后，过一段时间会释放新的病毒",
+      "seconds": 7.174965986394557,
+      "source": "“细胞感染后，过一段时间会释放新的病毒”.wav",
+      "sha256": "d11e4253dde7bb435028baa7b722661023c9f96d1134f0294e336a9211f15705",
+      "frames": 316416,
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidth": 2
+    },
+    "collect": {
+      "path": "audio/tutorial/collect.wav",
+      "text": "你可以接触它们，以此聚集病毒",
+      "seconds": 5.154829931972789,
+      "source": "“你可以接触它们，以此聚集病毒”.wav",
+      "sha256": "b5397a3d97af8f183a1c8bc3963cc4c2fea034cb574f9daa3cf76fedf0e0b2f4",
+      "frames": 227328,
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidth": 2
+    },
+    "absorb": {
+      "path": "audio/tutorial/absorb.wav",
+      "text": "也可以直接吸附",
+      "seconds": 5.735328798185941,
+      "source": "“也可以直接吸附”.wav",
+      "sha256": "ed415ea290403e90391ad85ccdbdeded46ce9e66476d0d46f6bfce9009354c12",
+      "frames": 252928,
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidth": 2
+    },
+    "goal": {
+      "path": "audio/tutorial/goal.wav",
+      "text": "我们的目标是感染尽可能多的细胞来发展病毒群",
+      "seconds": 8.986122448979591,
+      "source": "“我们的目标是感染尽可能多的细胞来发展病毒群”.wav",
+      "sha256": "95d50c8c7720d20033c3a15dfee2691a8ca337214bd17da0745384e49e71b32c",
+      "frames": 396288,
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidth": 2
+    },
+    "tcell": {
+      "path": "audio/tutorial/tcell.wav",
+      "text": "该死，这是细胞毒性T细胞",
+      "seconds": 3.5526530612244898,
+      "source": "“该死，这是细胞毒性T细胞”.wav",
+      "sha256": "406cb87b009113c240ad8d8e5b12ce118f7a4fc93b3fe367b2210afe01f218bc",
+      "frames": 156672,
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidth": 2
+    },
+    "tcell_attack": {
+      "path": "audio/tutorial/tcell_attack.wav",
+      "text": "会优先识别并攻击感染细胞",
+      "seconds": 6.03718820861678,
+      "source": "“会优先识别并攻击感染细胞，.wav",
+      "sha256": "17a3c30da5f3fef0a76bf0ad115a4f25f53312da6becb755ab7ebc19f7038e20",
+      "frames": 266240,
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidth": 2
+    },
+    "relocate": {
+      "path": "audio/tutorial/relocate.wav",
+      "text": "我们得去找其他细胞了",
+      "seconds": 4.806530612244898,
+      "source": "我们得去找其他细胞了”.wav",
+      "sha256": "598dd2e4a4524b1fbec42014e3415f0109daf80b7cd67ab27cb74ade6c10a299",
+      "frames": 211968,
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidth": 2
+    },
+    "macrophage": {
+      "path": "audio/tutorial/macrophage.wav",
+      "text": "巨噬细胞会优先攻击病毒群，注意躲避",
+      "seconds": 8.93968253968254,
+      "source": "“巨噬细胞会优先攻击病毒群，注意躲避”.wav",
+      "sha256": "de1a16568e3a81f4ca58ac9a1a29bc9eb948f13b1203eded4ef1db4926290be9",
+      "frames": 394240,
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidth": 2
+    },
+    "task": {
+      "path": "audio/tutorial/task.wav",
+      "text": "我们需要达成一定的条件来完成阶段任务",
+      "seconds": 7.174965986394557,
+      "source": "“我们需要达成一定的条件来完成阶段任务”.wav",
+      "sha256": "447169d8532bca63c11698e049099992d6ad45eeb069a9b97bbb41c13683addd",
+      "frames": 316416,
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidth": 2
+    },
+    "reward": {
+      "path": "audio/tutorial/reward.wav",
+      "text": "完成后会提供强力增益",
+      "seconds": 4.806530612244898,
+      "source": "“完成后会提供强力增益，.wav",
+      "sha256": "cf0c003a23f4024b7a9cce5b9172c8c866c03e49a284746db94afe5e1da266d0",
+      "frames": 211968,
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidth": 2
+    },
+    "explore": {
+      "path": "audio/tutorial/explore.wav",
+      "text": "自行探索吧",
+      "seconds": 5.712108843537415,
+      "source": "自行探索吧”.wav",
+      "sha256": "d9118f99ca91116fa8899c91440ace7c3aa2f440d9880a3dc7ab7712d2d0a5be",
+      "frames": 251904,
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidth": 2
+    }
+  },
+  "steps": {
+    "intro": [
+      "intro"
+    ],
+    "target": [
+      "healthy_cell",
+      "contact_infection"
+    ],
+    "infect": [
+      "try_infection"
+    ],
+    "wait": [
+      "release"
+    ],
+    "collect": [
+      "collect",
+      "absorb"
+    ],
+    "split": [
+      "goal"
+    ],
+    "tcell": [
+      "tcell",
+      "tcell_attack"
+    ],
+    "macrophage": [
+      "macrophage"
+    ],
+    "escape": [
+      "relocate"
+    ],
+    "task": [
+      "task",
+      "reward",
+      "explore"
+    ]
+  },
+  "unvoiced": [
+    "split instruction",
+    "Tab control instruction"
+  ],
+  "sourceNote": "在新手教程（1）那个文本里面倒数第四句和倒数第一句分开成两句话了，每一句可以由标题的中文来找到是哪一句（没有排序，顺序乱的）"
+}
