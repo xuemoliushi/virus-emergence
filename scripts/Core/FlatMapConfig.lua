@@ -1,0 +1,20 @@
+-- Approved v4 geometry defaults; FlatWorldMap adapts these same data to gameplay.
+return {
+    mapKind = "flat_black_wall",
+    mapGenerationVersion = 5,
+    mapSeed = 314159,
+    width = 120, height = 144, gridSize = 1,
+    borderWidth = 2, islandCount = 10, ridgeCount = 8,
+    obstacleAttempts = 160, generationAttempts = 8, coverageRepairLimit = 64,
+    corridorWidth = 6, flowSystemCount = 4,
+    flowWidth = 3, vortexCount = 3, vortexWidth = 2, crossFlowCount = 6,
+    jetSpeedMin = 1.2, jetSpeedMax = 1.6,
+    counterSpeedMin = .8, counterSpeedMax = 1.1, vortexSpeed = .9,
+    maxFlowSpeed = 1.6, spawnCalmRadius = 5,
+    cellCount = 960, coverageCellCount = 840, supplementCellCount = 120,
+    bayCount = 12, bayCellCount = 10, bayRadius = 5.5, bayMinDistance = 14,
+    supplementMinDistance = 2.4, densityRadius = 4, densityCap = 9,
+    cellRadiusMin = .34, cellRadiusMax = .48, cellGap = .16,
+    spawnSafeRadius = 2, playerRadius = .48, maxSwarmRadius = 1.35,
+    coverageMaxDistance = 6, candidateCount = 5000, candidateAttemptLimit = 32000,
+}
