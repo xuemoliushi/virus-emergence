@@ -1,0 +1,114 @@
+{
+  "mapped": {
+    "swarm_anchor": {
+      "file": "swarm_anchor.png",
+      "original": "01群体锚定.png",
+      "sha256": "21e1aeabf39283187dbe916a9f65755b4713b22dfaa36a4fd76386b76d8af38d",
+      "source_sha256": "21e1aeabf39283187dbe916a9f65755b4713b22dfaa36a4fd76386b76d8af38d",
+      "replacement_date": "2026-10-18",
+      "previous_asset": {
+        "file": "swarm_anchor.png",
+        "original": "01群体锚定 · 普通.png",
+        "sha256": "0ac9952b6e5b372e6e6b53375a30b682d2bf9d330e0678ceca823767bc092f24",
+        "source_sha256": "317190f68c7ce5f4c8f0ff1db13394e9313569f42c19b0e00be3bd7bbef34d5c",
+        "normalization": {
+          "crop": [
+            12,
+            39,
+            780,
+            1063
+          ],
+          "reason": "去除群体锚定原图的外部截图留白及顶部残留，与其他卡面统一画布；不裁切卡框内容。"
+        }
+      }
+    },
+    "discrete_recall": {
+      "file": "discrete_recall.png",
+      "original": "02离散回收 · 普通.png",
+      "sha256": "1ea96a8e0662e13088afe8b6e25535dcd906dbf2ba04f36c4516ce6c257d1665"
+    },
+    "emergency_dash": {
+      "file": "emergency_dash.png",
+      "original": "03紧急冲刺 · 普通.png",
+      "sha256": "c8ab57487905d86b6d47d8940273016f828ad64a777c8b8c490b5c0e26f02e35"
+    },
+    "shed_decoy": {
+      "file": "shed_decoy.png",
+      "original": "04脱落诱饵 · 普通.png",
+      "sha256": "c3350b7659aaeb42c21a6b7743c7158d3e486829362ba7c4738ef82d3b17c8b8"
+    },
+    "debris_camouflage": {
+      "file": "debris_camouflage.png",
+      "original": "05残骸伪装 · 普通.png",
+      "sha256": "3f83a12b8e05fb07df4f8a543f21ba741c3e5f5d23ba1b5ab8372bfde49a7d4f"
+    },
+    "local_flow": {
+      "file": "local_flow.png",
+      "original": "06局部转流 · 稀有.PNG",
+      "sha256": "33de0c4c34b15723421cf36dfff6bcf6b824015ee97e1382fee129ae929aa849"
+    },
+    "swarm_capacity_4": {
+      "file": "swarm_capacity_4.png",
+      "original": "07分裂扩容 · 稀有.png",
+      "sha256": "4cc02be7bba67cbbc717ea1d18dd31c70720220c8502f21f517ec9ec6f5a3943"
+    },
+    "swarm_local_brain": {
+      "file": "swarm_local_brain.png",
+      "original": "08分群小脑 · 稀有.png",
+      "sha256": "a367321aadbbc88fdd098c3a63f8b7568d6a50ae5ba049122e7fabd9f9854de3"
+    },
+    "node_hide": {
+      "file": "node_hide.png",
+      "original": "09寄居藏身 · 稀有.png",
+      "sha256": "7a0fa15068e803e28448307c926e9416aba4a5f2c363c59e62d2336b55fb6085"
+    },
+    "merge_seed": {
+      "file": "merge_seed.png",
+      "original": "合并播种.png",
+      "sha256": "3e5d2e2e97dbe65eeabaade493269f166c616b8fe6b78d9c3dfe7dd7429c25c9"
+    },
+    "swarm_capacity_6": {
+      "file": "swarm_capacity_6.png",
+      "original": "多群扩容.png",
+      "sha256": "46565db24dcf8740f0413b2b571d010c1e51b83ce7b7955557da6417ef4bd048"
+    },
+    "infection_trail": {
+      "file": "infection_trail.png",
+      "original": "感染拖尾.png",
+      "sha256": "df3bc9b91281d151afb393ab5077fd16f2e7d6fd1c867d1a8ddcdc4e5b6d552d"
+    },
+    "tail_preserve": {
+      "file": "tail_preserve.png",
+      "original": "断尾保全.png",
+      "sha256": "67c87744954a03c4ae68b4dfad633d252a5bb80a919ccae1be603ad416e8c3e0"
+    },
+    "rupture_spread": {
+      "file": "rupture_spread.png",
+      "original": "破裂散播.png",
+      "sha256": "0f29e232d75f30e542795787a85b35dec6dbf6038bb3a329672d732a4b8b4ef6"
+    },
+    "node_cover": {
+      "file": "node_cover.png",
+      "original": "节点包覆.png",
+      "sha256": "15208cb2d6c2172f60c7e99009515cbfc39f6a9eb6c2a51c2279e8920b05a521"
+    },
+    "node_takeover": {
+      "file": "node_takeover.png",
+      "original": "节点接管.png",
+      "sha256": "81c0168037ab7dd8143ae58e0a6b49c14681d560baab0e09e2fc158e7dc9335e"
+    },
+    "membrane_glide": {
+      "file": "membrane_glide.png",
+      "original": "贴膜滑行.png",
+      "sha256": "f7f6fdbdda6f792081605bf732ad70d3eb5c89d3b9c8f61899a7305432cd89a0"
+    },
+    "cluster_dispatch": {
+      "file": "cluster_dispatch.png",
+      "original": "集群调度.png",
+      "sha256": "cadd4655b246e849e3d5efab3845da797db6944e731fc99c52dd68f0b58f30ba"
+    }
+  },
+  "unassigned": {},
+  "source": "Desktop/卡牌1-18",
+  "notes": "全部素材按桌面当前文件中的机制名称精确匹配，不复用旧编号副本。群体锚定去除外部截图留白，保留原文件名、原文件及导入文件 SHA-256 和裁切范围；其余素材原样导入。"
+}

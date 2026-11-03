@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "source_review": "unified-highlight-review-20261015",
+  "material_bake": "approved WebGL color at 1.5 seconds, moderate highlights; four emission phases",
+  "geometry": "original 1254 centre and exact layer alpha preserved; continuous affine UV registration",
+  "fills": {
+    "virus": 0.91015625,
+    "macrophage": 0.91015625,
+    "tcell-01": 0.91015625,
+    "tcell-02": 0.91015625,
+    "healthy": 0.91015625
+  },
+  "glow_atlas": {
+    "width": 640,
+    "height": 512,
+    "tile": 128,
+    "phases": 4
+  },
+  "sources": {
+    "virus": "c53cbcdc25dc5222c8d639d9b6608a05c906eb64b444e77cfaf3d746a7eef769",
+    "macrophage": "506fc3b7d721ca92702ab84099556f390b29a6b959a67546907436cff1dab0a1",
+    "tcell-01": "f023b7a50b91244dbf71ee23cd7bfa0db8f50f74d16b5cc764176c52fa0886de",
+    "tcell-02": "686492c91a6009850077ee28b66b067742bdb20a463f974f22415895895e44b0",
+    "healthy": "15212fffc1a3445967d8a8208c358e0e84162c28a6fb616846e27db09c8112e3"
+  },
+  "files": {
+    "background.png": {
+      "bytes": 996785,
+      "sha256": "6a975fa946762d5915901f79914fc604530e54044dc657dc633dd52e4f29ef7c"
+    },
+    "budding_manifest.json": {
+      "bytes": 276359,
+      "sha256": "9fc22791853d7fb3a188d9b49f28110907fcafbc2919bd6a31424dbbaa822ee7"
+    },
+    "cell_body.png": {
+      "bytes": 614806,
+      "sha256": "5bb7ec774f682b309be9fc86f98beb696e650670ca51aa9a3d3933abbb92484c"
+    },
+    "cell_death.png": {
+      "bytes": 567544,
+      "sha256": "8466989cc8759ec3809ba8c454434cccddfe7e30395ab8f09dc8c412a11b04e3"
+    },
+    "cell_exhaustion.png": {
+      "bytes": 212797,
+      "sha256": "6a98058e37c5fae70e438140ed883a1f4dbb039ee860113cf47db1df39e0b3f6"
+    },
+    "cell_membrane.png": {
+      "bytes": 190452,
+      "sha256": "aa0caa0b62cb669958079cea986baf40ee7e25e48dec8392897b44f40baaaef4"
+    },
+    "cell_vacuole.png": {
+      "bytes": 102355,
+      "sha256": "24720f4c80ef44023eaff0f2aaa5fc0637d431f9426ad369a0ff189e9654c20b"
+    },
+    "emission_atlas.png": {
+      "bytes": 406434,
+      "sha256": "22efcb1b3fc6c531d962fd51d62935ed9fad97511484278901a98c5d6ba73e4f"
+    },
+    "healthy.png": {
+      "bytes": 269475,
+      "sha256": "a10a9809e1609e13c9a5b43ea50929b7061b43302989dca9f2730984661ee0a1"
+    },
+    "macrophage.png": {
+      "bytes": 284434,
+      "sha256": "c5e362f4a25f6ffa8046e9dd91d4b66a3edb62b83b5b6ab353f147ba6e00ab93"
+    },
+    "tcell-01.png": {
+      "bytes": 286584,
+      "sha256": "bc7c063d75e60f3e7cdd4d82a19d605c61e116a6383e9588cf6a9753582e78f6"
+    },
+    "tcell-02.png": {
+      "bytes": 278281,
+      "sha256": "d9d94b702f4abfb4513f5c62d77662f2f3bcc0dd5bc035b2d2d015f1be6b1838"
+    },
+    "virus.png": {
+      "bytes": 246939,
+      "sha256": "e80cee7f4585128b47f50f63a19b12e0d617fcc52976d2d1f53b77823513a580"
+    },
+    "virus_256.png": {
+      "bytes": 81929,
+      "sha256": "3ec8fdd40506cccb432d1248f7868ed8f8622f4f697a61609eae449fa4efec35"
+    },
+    "virus_32.png": {
+      "bytes": 2646,
+      "sha256": "963a4ac2ba366865dd2f07263ff244d05e55d960a7ff772b3f9e93fd283832ee"
+    },
+    "virus_512.png": {
+      "bytes": 243156,
+      "sha256": "f8e73f89c38d2a40a3a05071c769742d0750939ee2a93eb336cd31de1c17b161"
+    },
+    "virus_96.png": {
+      "bytes": 16176,
+      "sha256": "c6ddb11b5a2fc1153f394ea9633fe47416c2c784d7df5da7de9c476388f73da1"
+    },
+    "virus_attached.png": {
+      "bytes": 14669,
+      "sha256": "ac4072913bf0caaf436a1450724b4680eec8abd7a5ed9c34ee3c750b521f28da"
+    }
+  }
+}

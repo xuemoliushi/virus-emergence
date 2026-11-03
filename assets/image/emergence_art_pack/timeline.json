@@ -1,0 +1,388 @@
+{
+  "version": 2,
+  "duration_seconds": 90,
+  "fps": 24,
+  "total_frames": 2160,
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "interval_convention": "[start,end)",
+  "frame_origin": 0,
+  "time_origin": "seconds from first black frame",
+  "authority": "01_逐镜导演执行单.md; confirmed opening override in README",
+  "audio": {
+    "status": "instructions_only_no_audio_files",
+    "sample_rate": 48000,
+    "channels": 2,
+    "samples_per_channel": 4320000,
+    "narration_status": "not_recorded",
+    "music_instructions": "02_音乐与声音制作要求.md"
+  },
+  "subtitles_status": "draft_pending_narration",
+  "subtitle_instructions": "03_字幕与旁白执行说明.md",
+  "shots": [
+    {
+      "id": "S01",
+      "name": "黑屏至微观",
+      "start": 0,
+      "end": 6,
+      "start_frame": 0,
+      "end_frame": 144,
+      "camera": "fade_from_black_then_dolly_out",
+      "assets": [
+        "background/ivory",
+        "micro/tissue"
+      ],
+      "directing_document": "01_逐镜导演执行单.md",
+      "reference_png": "composition/S01_layout.png"
+    },
+    {
+      "id": "S02",
+      "name": "宿主揭晓",
+      "start": 6,
+      "end": 18,
+      "start_frame": 144,
+      "end_frame": 432,
+      "camera": "dolly_out_then_track",
+      "assets": [
+        "bird/bird_a_up",
+        "bird/bird_a_level",
+        "bird/bird_a_down",
+        "bird/chest_mask",
+        "micro/tissue"
+      ],
+      "directing_document": "01_逐镜导演执行单.md",
+      "reference_png": "composition/S02_layout.png"
+    },
+    {
+      "id": "S03",
+      "name": "两群鸟",
+      "start": 18,
+      "end": 34,
+      "start_frame": 432,
+      "end_frame": 816,
+      "camera": "dolly_out_decelerate",
+      "assets": [
+        "bird/bird_a_up",
+        "bird/bird_a_level",
+        "bird/bird_a_down"
+      ],
+      "directing_document": "01_逐镜导演执行单.md",
+      "reference_png": "composition/S03_layout.png"
+    },
+    {
+      "id": "S04",
+      "name": "个体退出",
+      "start": 34,
+      "end": 45,
+      "start_frame": 816,
+      "end_frame": 1080,
+      "camera": "hold_then_pan_down",
+      "assets": [
+        "bird/bird_a_slack",
+        "bird/bird_a_up",
+        "bird/bird_a_level",
+        "bird/bird_a_down"
+      ],
+      "directing_document": "01_逐镜导演执行单.md",
+      "reference_png": "composition/S04_layout.png"
+    },
+    {
+      "id": "S05",
+      "name": "云层至城市",
+      "start": 45,
+      "end": 59,
+      "start_frame": 1080,
+      "end_frame": 1416,
+      "camera": "pan_down_occlusion_cut",
+      "assets": [
+        "bird/bird_a_slack",
+        "cloud/cloud_band_01",
+        "cloud/cloud_band_02",
+        "cloud/cloud_band_03",
+        "city/roofline_transition",
+        "city/city_roads",
+        "city/city_buildings"
+      ],
+      "directing_document": "01_逐镜导演执行单.md",
+      "reference_png": "composition/S05_layout.png"
+    },
+    {
+      "id": "S06",
+      "name": "路口至城市",
+      "start": 59,
+      "end": 76,
+      "start_frame": 1416,
+      "end_frame": 1824,
+      "camera": "hold_intersection_then_rise",
+      "assets": [
+        "city/city_roads",
+        "city/city_buildings",
+        "actors/car_topdown",
+        "actors/pedestrian_walk_01",
+        "actors/pedestrian_walk_02"
+      ],
+      "directing_document": "01_逐镜导演执行单.md",
+      "reference_png": "composition/S06_layout.png"
+    },
+    {
+      "id": "S07",
+      "name": "城市至地球",
+      "start": 76,
+      "end": 87,
+      "start_frame": 1824,
+      "end_frame": 2088,
+      "camera": "dolly_out_graphic_mask_reveal",
+      "assets": [
+        "city/city_roads",
+        "city/city_buildings",
+        "earth/planet_disc",
+        "earth/earth_reference"
+      ],
+      "directing_document": "01_逐镜导演执行单.md",
+      "reference_png": "composition/S07_layout.png"
+    },
+    {
+      "id": "S08",
+      "name": "地球与标题",
+      "start": 87,
+      "end": 90,
+      "start_frame": 2088,
+      "end_frame": 2160,
+      "camera": "hold_title_fade",
+      "assets": [
+        "earth/earth_reference"
+      ],
+      "directing_document": "01_逐镜导演执行单.md",
+      "reference_png": "composition/S08_layout.png"
+    }
+  ],
+  "music_cues": [
+    {
+      "id": "bass_enters",
+      "start": 2,
+      "end": 6,
+      "action": "weak narrow-register bass"
+    },
+    {
+      "id": "host_reveal",
+      "start": 13.3,
+      "end": 15,
+      "action": "first harmonic expansion",
+      "trigger": "0.3–0.5s after bird recognizable; target only"
+    },
+    {
+      "id": "flock_build",
+      "start": 18,
+      "end": 34,
+      "action": "motif and strings accumulate"
+    },
+    {
+      "id": "death_gap",
+      "start": 36,
+      "end": 37,
+      "action": "remove motif and most upper layers, retain low tail"
+    },
+    {
+      "id": "sparse_fall",
+      "start": 37,
+      "end": 53,
+      "action": "sparse music under narration and wind"
+    },
+    {
+      "id": "restart",
+      "start": 53,
+      "end": 59,
+      "action": "organ bass restarts"
+    },
+    {
+      "id": "city_build",
+      "start": 59,
+      "end": 79.5,
+      "action": "add motif and layers progressively"
+    },
+    {
+      "id": "anticipation",
+      "start": 79.5,
+      "end": 80.5,
+      "action": "thin texture"
+    },
+    {
+      "id": "earth_release",
+      "start": 81.3,
+      "end": 85.5,
+      "action": "widest harmonic release",
+      "trigger": "0.3s after actual Earth recognition; target only"
+    },
+    {
+      "id": "tail",
+      "start": 85.5,
+      "end": 90,
+      "action": "motif stops, smooth resolving tail ending at 90"
+    }
+  ],
+  "subtitles": [
+    {
+      "id": 1,
+      "start": 9.5,
+      "end": 14,
+      "start_frame": 228,
+      "end_frame": 336,
+      "zh": "在这只鸟的体内，一个看不见的世界正在改变。",
+      "en": "Within this bird, an unseen world was changing.",
+      "timing_status": "draft_pending_narration"
+    },
+    {
+      "id": 2,
+      "start": 14,
+      "end": 16.5,
+      "start_frame": 336,
+      "end_frame": 396,
+      "zh": "一场微小的感染扩散开来。",
+      "en": "A small infection spread.",
+      "timing_status": "draft_pending_narration"
+    },
+    {
+      "id": 3,
+      "start": 20,
+      "end": 23,
+      "start_frame": 480,
+      "end_frame": 552,
+      "zh": "每只鸟跟随着附近的同伴。",
+      "en": "Each bird follows its neighbours.",
+      "timing_status": "draft_pending_narration"
+    },
+    {
+      "id": 4,
+      "start": 23,
+      "end": 25,
+      "start_frame": 552,
+      "end_frame": 600,
+      "zh": "保持距离。",
+      "en": "Keeping distance.",
+      "timing_status": "draft_pending_narration"
+    },
+    {
+      "id": 5,
+      "start": 25,
+      "end": 27,
+      "start_frame": 600,
+      "end_frame": 648,
+      "zh": "一同转向。",
+      "en": "Turning together.",
+      "timing_status": "draft_pending_narration"
+    },
+    {
+      "id": 6,
+      "start": 27,
+      "end": 29,
+      "start_frame": 648,
+      "end_frame": 696,
+      "zh": "留在群体附近。",
+      "en": "Staying close.",
+      "timing_status": "draft_pending_narration"
+    },
+    {
+      "id": 7,
+      "start": 29,
+      "end": 33.5,
+      "start_frame": 696,
+      "end_frame": 804,
+      "zh": "秩序，从这些微小的行动中涌现。",
+      "en": "From these small actions, order emerges.",
+      "timing_status": "draft_pending_narration"
+    },
+    {
+      "id": 8,
+      "start": 36.5,
+      "end": 41,
+      "start_frame": 876,
+      "end_frame": 984,
+      "zh": "这只鸟死于急性肺炎。",
+      "en": "This bird died of acute pneumonia.",
+      "timing_status": "draft_pending_narration"
+    },
+    {
+      "id": 9,
+      "start": 41.5,
+      "end": 45,
+      "start_frame": 996,
+      "end_frame": 1080,
+      "zh": "鸟群仍在继续飞行。",
+      "en": "The flock continued its flight.",
+      "timing_status": "draft_pending_narration"
+    },
+    {
+      "id": 10,
+      "start": 56,
+      "end": 59,
+      "start_frame": 1344,
+      "end_frame": 1416,
+      "zh": "在下方，另一个世界也在运行。",
+      "en": "Below, another world moves.",
+      "timing_status": "draft_pending_narration"
+    },
+    {
+      "id": 11,
+      "start": 60,
+      "end": 65,
+      "start_frame": 1440,
+      "end_frame": 1560,
+      "zh": "人们相遇、交换、合作与竞争。",
+      "en": "People meet, exchange, cooperate, and compete.",
+      "timing_status": "draft_pending_narration"
+    },
+    {
+      "id": 12,
+      "start": 66,
+      "end": 70.5,
+      "start_frame": 1584,
+      "end_frame": 1692,
+      "zh": "他们的生活彼此交织，",
+      "en": "Their lives intertwine,",
+      "timing_status": "draft_pending_narration"
+    },
+    {
+      "id": 13,
+      "start": 70.5,
+      "end": 75,
+      "start_frame": 1692,
+      "end_frame": 1800,
+      "zh": "形成任何一个人都无法独自创造的社会。",
+      "en": "shaping a society no one person could create alone.",
+      "timing_status": "draft_pending_narration"
+    },
+    {
+      "id": 14,
+      "start": 77,
+      "end": 80,
+      "start_frame": 1848,
+      "end_frame": 1920,
+      "zh": "世代之间，这些联系",
+      "en": "Across generations, these connections",
+      "timing_status": "draft_pending_narration"
+    },
+    {
+      "id": 15,
+      "start": 80,
+      "end": 85.5,
+      "start_frame": 1920,
+      "end_frame": 2052,
+      "zh": "逐渐形成城市、文化与文明。",
+      "en": "grow into cities, cultures, and civilizations.",
+      "timing_status": "draft_pending_narration"
+    }
+  ],
+  "title": {
+    "start": 87,
+    "fade_end": 88,
+    "end": 90,
+    "en": "EMERGENCE",
+    "zh": "涌现",
+    "center_x": 960,
+    "en_baseline_y": 817,
+    "zh_baseline_y": 873,
+    "separate_from_subtitles": true
+  }
+}

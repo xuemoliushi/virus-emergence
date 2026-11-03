@@ -1,0 +1,168 @@
+{
+  "units": "artwork pixels, not engine metres",
+  "canvas": [
+    3200,
+    2400
+  ],
+  "intersection": [
+    1600,
+    1200
+  ],
+  "roads": {
+    "horizontal_y": [
+      400,
+      1200,
+      2000
+    ],
+    "vertical_x": [
+      400,
+      1600,
+      2800
+    ],
+    "width": 140
+  },
+  "safe_screen_rect": [
+    0,
+    0,
+    1920,
+    918
+  ],
+  "routes": {
+    "car_yields": {
+      "points": [
+        [
+          1120,
+          1235
+        ],
+        [
+          1450,
+          1235
+        ],
+        [
+          1500,
+          1235
+        ],
+        [
+          1800,
+          1235
+        ]
+      ],
+      "action": "decelerate before crossing; wait for pedestrian; resume"
+    },
+    "pedestrian_crosses": {
+      "points": [
+        [
+          1475,
+          1085
+        ],
+        [
+          1475,
+          1150
+        ],
+        [
+          1475,
+          1260
+        ],
+        [
+          1475,
+          1315
+        ]
+      ],
+      "action": "cross north-south along marked crosswalk"
+    },
+    "meeting_person_a": {
+      "points": [
+        [
+          1830,
+          1060
+        ],
+        [
+          1760,
+          1080
+        ],
+        [
+          1775,
+          1020
+        ]
+      ],
+      "action": "meet near northeast corner then walk north together"
+    },
+    "meeting_person_b": {
+      "points": [
+        [
+          1760,
+          970
+        ],
+        [
+          1760,
+          1080
+        ],
+        [
+          1795,
+          1020
+        ]
+      ],
+      "action": "meet then walk alongside a"
+    },
+    "car_turns": {
+      "points": [
+        [
+          1635,
+          1590
+        ],
+        [
+          1635,
+          1350
+        ],
+        [
+          1640,
+          1255
+        ],
+        [
+          1690,
+          1165
+        ],
+        [
+          1810,
+          1165
+        ]
+      ],
+      "action": "round turn to the east; do not teleport or pass through buildings"
+    }
+  },
+  "camera": {
+    "close_center": [
+      1600,
+      1170
+    ],
+    "close_scale": 2.2,
+    "wide_scale": 0.45
+  },
+  "bird": {
+    "canvas": [
+      1024,
+      640
+    ],
+    "pivot": [
+      540,
+      328
+    ],
+    "chest": [
+      595,
+      330
+    ],
+    "chest_radius": [
+      62,
+      40
+    ],
+    "pose_order": [
+      "up",
+      "level",
+      "down",
+      "level"
+    ],
+    "dead_pose": "slack",
+    "direction": "right"
+  },
+  "note": "Routes define graphic choreography; use the same world coordinate system for city layers, actors and camera."
+}

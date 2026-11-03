@@ -1,0 +1,37 @@
+{
+  "canvas": 300,
+  "center": [
+    150.0,
+    150.0
+  ],
+  "anchor": "画布中心 = 附着点（色斑最密处）；程序从这里起叠 1~3 块逐级放大",
+  "sprite_frame": "+x = 沿细胞膜扩散方向；+y = 朝细胞内部（那几颗小暖粒的方向）",
+  "stack": [
+    {
+      "scale": 0.55,
+      "rot": 0
+    },
+    {
+      "scale": 0.78,
+      "rot": 25
+    },
+    {
+      "scale": 1.0,
+      "rot": -20
+    }
+  ],
+  "clip": "必须按细胞轮廓裁剪（乘同位置细胞 alpha），否则会糊到细胞外的背景上",
+  "vis_width_frac": 0.427,
+  "size_guide": {
+    "rule": "精灵缩放 = 目标可见宽度 / 128；可见宽度 = 精灵画布尺寸 × 0.427",
+    "grown_patch_vis_px": 366,
+    "grown_patch_frac_of_cell": "细胞前景宽度的 45%（= 3.0 个病毒宽）",
+    "at_cell_240px": {
+      "visible_px": 109,
+      "sprite_scale": 0.85,
+      "sprite_canvas_px": 255
+    },
+    "note": "366px 是 2026-10-06 客户反馈「参考病毒比例大小，增大感染部分」后从 230px 提上来的（1.6x）；单看一个附着点仍是局部，7 个附着点才整细胞泛橙。尺寸梯子见 output/preview/patch_scale_ladder.png"
+  },
+  "source": "output\\_work\\patch_v3\\patch_C.png"
+}

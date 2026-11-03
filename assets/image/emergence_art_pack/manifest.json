@@ -1,0 +1,481 @@
+{
+  "version": 1,
+  "palette": {
+    "ivory": "#F4F2EC",
+    "black": "#101010",
+    "grey": "#C8C5BD"
+  },
+  "assets": [
+    {
+      "id": "background/ivory",
+      "svg": "background/ivory.svg",
+      "png": "background/ivory.png",
+      "width": 1920,
+      "height": 1080,
+      "purpose": "全片底色；可直接用纯色替代",
+      "shots": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08"
+      ],
+      "origin": "procedural vector artwork"
+    },
+    {
+      "id": "background/paper_overlay",
+      "png": "background/paper_overlay.png",
+      "width": 1920,
+      "height": 1080,
+      "shots": [
+        "ALL"
+      ],
+      "purpose": "可选低强度纸纹；全片固定或随同背景移动，避免闪烁",
+      "origin": "procedural raster artwork"
+    },
+    {
+      "id": "bird/bird_a_up",
+      "svg": "bird/bird_a_up.svg",
+      "png": "bird/bird_a_up.png",
+      "width": 1024,
+      "height": 640,
+      "purpose": "同一 BIRD_A；身体完全一致，只改变翅膀；朝右",
+      "shots": [
+        "S02",
+        "S03",
+        "S04",
+        "S05"
+      ],
+      "origin": "procedural vector artwork",
+      "pivot_px": [
+        540,
+        328
+      ]
+    },
+    {
+      "id": "bird/bird_a_level",
+      "svg": "bird/bird_a_level.svg",
+      "png": "bird/bird_a_level.png",
+      "width": 1024,
+      "height": 640,
+      "purpose": "同一 BIRD_A；身体完全一致，只改变翅膀；朝右",
+      "shots": [
+        "S02",
+        "S03",
+        "S04",
+        "S05"
+      ],
+      "origin": "procedural vector artwork",
+      "pivot_px": [
+        540,
+        328
+      ]
+    },
+    {
+      "id": "bird/bird_a_down",
+      "svg": "bird/bird_a_down.svg",
+      "png": "bird/bird_a_down.png",
+      "width": 1024,
+      "height": 640,
+      "purpose": "同一 BIRD_A；身体完全一致，只改变翅膀；朝右",
+      "shots": [
+        "S02",
+        "S03",
+        "S04",
+        "S05"
+      ],
+      "origin": "procedural vector artwork",
+      "pivot_px": [
+        540,
+        328
+      ]
+    },
+    {
+      "id": "bird/bird_a_slack",
+      "svg": "bird/bird_a_slack.svg",
+      "png": "bird/bird_a_slack.png",
+      "width": 1024,
+      "height": 640,
+      "purpose": "同一 BIRD_A；身体完全一致，只改变翅膀；朝右",
+      "shots": [
+        "S02",
+        "S03",
+        "S04",
+        "S05"
+      ],
+      "origin": "procedural vector artwork",
+      "pivot_px": [
+        540,
+        328
+      ]
+    },
+    {
+      "id": "bird/chest_mask",
+      "svg": "bird/chest_mask.svg",
+      "png": "bird/chest_mask.png",
+      "width": 1024,
+      "height": 640,
+      "purpose": "白色区域是微观纹理窗口；与鸟使用相同画布和变换",
+      "shots": [
+        "S01",
+        "S02"
+      ],
+      "origin": "procedural vector artwork",
+      "pivot_px": [
+        540,
+        328
+      ]
+    },
+    {
+      "id": "micro/tissue",
+      "svg": "micro/tissue.svg",
+      "png": "micro/tissue.png",
+      "width": 1600,
+      "height": 1200,
+      "purpose": "透明抽象细胞纹理；淡入后缩入胸腔遮罩，不是真实游戏或医学图像",
+      "shots": [
+        "S01",
+        "S02"
+      ],
+      "origin": "procedural vector artwork"
+    },
+    {
+      "id": "cloud/cloud_band_01",
+      "svg": "cloud/cloud_band_01.svg",
+      "png": "cloud/cloud_band_01.png",
+      "width": 2560,
+      "height": 640,
+      "purpose": "透明浅灰云带；可叠放，S05 完全覆盖时换城市层",
+      "shots": [
+        "S05"
+      ],
+      "origin": "procedural vector artwork"
+    },
+    {
+      "id": "cloud/cloud_band_02",
+      "svg": "cloud/cloud_band_02.svg",
+      "png": "cloud/cloud_band_02.png",
+      "width": 2560,
+      "height": 640,
+      "purpose": "透明浅灰云带；可叠放，S05 完全覆盖时换城市层",
+      "shots": [
+        "S05"
+      ],
+      "origin": "procedural vector artwork"
+    },
+    {
+      "id": "cloud/cloud_band_03",
+      "svg": "cloud/cloud_band_03.svg",
+      "png": "cloud/cloud_band_03.png",
+      "width": 2560,
+      "height": 640,
+      "purpose": "透明浅灰云带；可叠放，S05 完全覆盖时换城市层",
+      "shots": [
+        "S05"
+      ],
+      "origin": "procedural vector artwork"
+    },
+    {
+      "id": "city/city_roads",
+      "svg": "city/city_roads.svg",
+      "png": "city/city_roads.png",
+      "width": 3200,
+      "height": 2400,
+      "purpose": "透明道路层；主路口为世界坐标 (1600,1200)",
+      "shots": [
+        "S05",
+        "S06",
+        "S07"
+      ],
+      "origin": "procedural vector artwork"
+    },
+    {
+      "id": "city/city_buildings",
+      "svg": "city/city_buildings.svg",
+      "png": "city/city_buildings.png",
+      "width": 3200,
+      "height": 2400,
+      "purpose": "透明建筑层；与道路完全同画布、同坐标",
+      "shots": [
+        "S05",
+        "S06",
+        "S07"
+      ],
+      "origin": "procedural vector artwork"
+    },
+    {
+      "id": "city/city_distant_mass",
+      "svg": "city/city_distant_mass.svg",
+      "png": "city/city_distant_mass.png",
+      "width": 3200,
+      "height": 2400,
+      "purpose": "可选浅灰远景替代层；不可与近景建筑产生错位",
+      "shots": [
+        "S05",
+        "S06",
+        "S07"
+      ],
+      "origin": "procedural vector artwork"
+    },
+    {
+      "id": "city/city_master",
+      "svg": "city/city_master.svg",
+      "png": "city/city_master.png",
+      "width": 3200,
+      "height": 2400,
+      "purpose": "同一俯视城市布局的完整参考，不含活动角色",
+      "shots": [
+        "S05",
+        "S06",
+        "S07"
+      ],
+      "origin": "procedural vector artwork"
+    },
+    {
+      "id": "city/intersection_reference",
+      "svg": "city/intersection_reference.svg",
+      "png": "city/intersection_reference.png",
+      "width": 1920,
+      "height": 1080,
+      "purpose": "主路口构图预览；正式动画应变换 city_master 图层，保持布局一致",
+      "shots": [
+        "S05",
+        "S06"
+      ],
+      "origin": "procedural vector artwork"
+    },
+    {
+      "id": "city/roofline_transition",
+      "svg": "city/roofline_transition.svg",
+      "png": "city/roofline_transition.png",
+      "width": 2560,
+      "height": 540,
+      "purpose": "S05 云后屋顶过渡层；由侧影转入俯视须用云遮挡切换，非物理连续城市",
+      "shots": [
+        "S05"
+      ],
+      "origin": "procedural vector artwork"
+    },
+    {
+      "id": "actors/pedestrian_walk_01",
+      "svg": "actors/pedestrian_walk_01.svg",
+      "png": "actors/pedestrian_walk_01.png",
+      "width": 80,
+      "height": 128,
+      "purpose": "透明行人姿态；需保持很小，适合略俯视图形化路口",
+      "shots": [
+        "S06"
+      ],
+      "origin": "procedural vector artwork",
+      "pivot_px": [
+        42,
+        78
+      ]
+    },
+    {
+      "id": "actors/pedestrian_walk_02",
+      "svg": "actors/pedestrian_walk_02.svg",
+      "png": "actors/pedestrian_walk_02.png",
+      "width": 80,
+      "height": 128,
+      "purpose": "透明行人姿态；需保持很小，适合略俯视图形化路口",
+      "shots": [
+        "S06"
+      ],
+      "origin": "procedural vector artwork",
+      "pivot_px": [
+        42,
+        78
+      ]
+    },
+    {
+      "id": "actors/car_topdown",
+      "svg": "actors/car_topdown.svg",
+      "png": "actors/car_topdown.png",
+      "width": 168,
+      "height": 96,
+      "purpose": "透明俯视车辆，默认车头向右；转弯时旋转整体",
+      "shots": [
+        "S06"
+      ],
+      "origin": "procedural vector artwork",
+      "pivot_px": [
+        84,
+        48
+      ]
+    },
+    {
+      "id": "reference/bird_source_up",
+      "png": "reference/bird_source_up.png",
+      "width": 807,
+      "height": 267,
+      "shots": [
+        "REFERENCE_ONLY"
+      ],
+      "purpose": "从用户鸟形图提取的姿态参考；不同画布不能直接作为振翅序列",
+      "origin": "extracted user reference",
+      "source": "jimeng-2026-10-13-3868-极简剪影动画，暖白色背景#F4F2EC，纯黑色主体#101010。同一个小型群居..._0.png"
+    },
+    {
+      "id": "reference/bird_source_down",
+      "png": "reference/bird_source_down.png",
+      "width": 770,
+      "height": 350,
+      "shots": [
+        "REFERENCE_ONLY"
+      ],
+      "purpose": "从用户鸟形图提取的姿态参考；不同画布不能直接作为振翅序列",
+      "origin": "extracted user reference",
+      "source": "jimeng-2026-10-13-3868-极简剪影动画，暖白色背景#F4F2EC，纯黑色主体#101010。同一个小型群居..._0.png"
+    },
+    {
+      "id": "reference/bird_source_side",
+      "png": "reference/bird_source_side.png",
+      "width": 743,
+      "height": 472,
+      "shots": [
+        "REFERENCE_ONLY"
+      ],
+      "purpose": "从用户鸟形图提取的姿态参考；不同画布不能直接作为振翅序列",
+      "origin": "extracted user reference",
+      "source": "jimeng-2026-10-13-3868-极简剪影动画，暖白色背景#F4F2EC，纯黑色主体#101010。同一个小型群居..._0.png"
+    },
+    {
+      "id": "reference/bird_source_fall",
+      "png": "reference/bird_source_fall.png",
+      "width": 664,
+      "height": 542,
+      "shots": [
+        "REFERENCE_ONLY"
+      ],
+      "purpose": "从用户鸟形图提取的姿态参考；不同画布不能直接作为振翅序列",
+      "origin": "extracted user reference",
+      "source": "jimeng-2026-10-13-3868-极简剪影动画，暖白色背景#F4F2EC，纯黑色主体#101010。同一个小型群居..._0.png"
+    },
+    {
+      "id": "earth/earth_reference",
+      "png": "earth/earth_reference.png",
+      "width": 1140,
+      "height": 1140,
+      "shots": [
+        "S07",
+        "S08"
+      ],
+      "purpose": "用户地球参考提取；黑海洋、暖白大陆；透明外背景；单张平面图只能轻微整体转动，不能假装真实地球自转",
+      "origin": "extracted user reference",
+      "source": "jimeng-2026-10-13-3361-极简剪影动画，暖白色背景#F4F2EC。一个正圆形纯黑色地球轮廓#101010，..._0.png",
+      "pivot_px": [
+        570,
+        570
+      ]
+    },
+    {
+      "id": "earth/planet_disc",
+      "svg": "earth/planet_disc.svg",
+      "png": "earth/planet_disc.png",
+      "width": 1140,
+      "height": 1140,
+      "purpose": "纯黑底盘；可在轮廓建立时先显示，再揭示大陆",
+      "shots": [
+        "S07",
+        "S08"
+      ],
+      "origin": "procedural vector artwork",
+      "pivot_px": [
+        570,
+        570
+      ]
+    },
+    {
+      "id": "composition/S01_layout",
+      "png": "composition/S01_layout.png",
+      "width": 1920,
+      "height": 1080,
+      "shots": [
+        "S01"
+      ],
+      "purpose": "构图参考静帧，非最终视频；不要把此图当分层动画素材",
+      "origin": "composite of supplied artwork"
+    },
+    {
+      "id": "composition/S02_layout",
+      "png": "composition/S02_layout.png",
+      "width": 1920,
+      "height": 1080,
+      "shots": [
+        "S02"
+      ],
+      "purpose": "构图参考静帧，非最终视频；不要把此图当分层动画素材",
+      "origin": "composite of supplied artwork"
+    },
+    {
+      "id": "composition/S03_layout",
+      "png": "composition/S03_layout.png",
+      "width": 1920,
+      "height": 1080,
+      "shots": [
+        "S03"
+      ],
+      "purpose": "构图参考静帧，非最终视频；不要把此图当分层动画素材",
+      "origin": "composite of supplied artwork"
+    },
+    {
+      "id": "composition/S04_layout",
+      "png": "composition/S04_layout.png",
+      "width": 1920,
+      "height": 1080,
+      "shots": [
+        "S04"
+      ],
+      "purpose": "构图参考静帧，非最终视频；不要把此图当分层动画素材",
+      "origin": "composite of supplied artwork"
+    },
+    {
+      "id": "composition/S05_layout",
+      "png": "composition/S05_layout.png",
+      "width": 1920,
+      "height": 1080,
+      "shots": [
+        "S05"
+      ],
+      "purpose": "构图参考静帧，非最终视频；不要把此图当分层动画素材",
+      "origin": "composite of supplied artwork"
+    },
+    {
+      "id": "composition/S06_layout",
+      "png": "composition/S06_layout.png",
+      "width": 1920,
+      "height": 1080,
+      "shots": [
+        "S06"
+      ],
+      "purpose": "构图参考静帧，非最终视频；不要把此图当分层动画素材",
+      "origin": "composite of supplied artwork"
+    },
+    {
+      "id": "composition/S07_layout",
+      "png": "composition/S07_layout.png",
+      "width": 1920,
+      "height": 1080,
+      "shots": [
+        "S07"
+      ],
+      "purpose": "构图参考静帧，非最终视频；不要把此图当分层动画素材",
+      "origin": "composite of supplied artwork"
+    },
+    {
+      "id": "composition/S08_layout",
+      "png": "composition/S08_layout.png",
+      "width": 1920,
+      "height": 1080,
+      "shots": [
+        "S08"
+      ],
+      "purpose": "构图参考静帧，非最终视频；不要把此图当分层动画素材",
+      "origin": "composite of supplied artwork"
+    }
+  ]
+}

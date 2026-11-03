@@ -1,0 +1,316 @@
+{
+  "canvas": [
+    1254,
+    1254
+  ],
+  "tex": 16,
+  "up": 2,
+  "sprite_canvas_px": 50,
+  "anchor": "与 cell_body.png **同画布同中心** → 叠放时 (0,0) 零偏移，不需要任何换算",
+  "drop_on": "cell_body → cell_membrane → cell_vacuole → latent_particles → (色斑) → attachment_glint → 病毒",
+  "count": 14,
+  "tiers": {
+    "bright": 1,
+    "normal": 2,
+    "dim": 11
+  },
+  "particle_px": 32,
+  "size_note": "外接 32px = 细胞前景 807px 的 1/25 = 病毒(121px) 的 1/3.8；实机（细胞前景 128px）约 5.1px",
+  "keepout_violations": {
+    "membrane_px": 0,
+    "vacuole_px": 0,
+    "outside_px": 0
+  },
+  "coverage_pct": 3.962,
+  "coverage_limit_pct": 4.544,
+  "min_centre_dist_px": 54.8,
+  "min_centre_dist_in_particle": 1.71,
+  "sparseness_rule": "疏落看的是**间距**（最近两颗 ≥ 0.9 个外接，不许重合），不是面积覆盖率 —— 覆盖率随尺寸涨，当门槛会把『多大』和『多疏』绑死",
+  "interior_px": 279862,
+  "palette": {
+    "halo": {
+      "rgb": [
+        126,
+        136,
+        0
+      ],
+      "luma": 117.5,
+      "alpha": 74
+    },
+    "mid": {
+      "rgb": [
+        170,
+        180,
+        0
+      ],
+      "luma": 156.5,
+      "alpha": 168
+    },
+    "core": {
+      "rgb": [
+        192,
+        200,
+        0
+      ],
+      "luma": 174.8,
+      "alpha": 240
+    },
+    "hot": {
+      "rgb": [
+        203,
+        213,
+        0
+      ],
+      "luma": 185.7,
+      "alpha": 255
+    }
+  },
+  "reference_luma": {
+    "cell_interior_median": 35.9,
+    "virus_max": 204.2,
+    "virus_p90": 188.9,
+    "glint_max": 250.8,
+    "glint_p90": 222.3
+  },
+  "brightness_rule": "最亮的潜伏颗粒 luma 必须 < 病毒 90 分位 —— 这是『明显弱于释放期』的硬判据",
+  "contrast_vs_cell_texture": {
+    "why": "细胞自带的粉白亮点比潜伏颗粒还亮，不能靠亮度区分，只能靠色相 + 尺寸",
+    "cell_granule_count": 76,
+    "cell_granule_rgb": [
+      245,
+      189,
+      199
+    ],
+    "cell_granule_b_over_r": 0.815,
+    "cell_granule_px": 10.5,
+    "latent_b_over_r": [
+      0.0,
+      0.0
+    ],
+    "latent_px": 32,
+    "note": "自带斑点是粉白（B/R≈0.81）；潜伏颗粒是荧光黄（B/R 0.00~0.00，蓝通道归零）且外接 32px > 自带 11px。实机识别靠『荧光黄 + 更大』，不靠更亮。"
+  },
+  "pulse": {
+    "mode": "每颗粒独立正弦调制 alpha（也可用三档精灵切换）",
+    "period_s": [
+      2.6,
+      5.2
+    ],
+    "alpha_range": [
+      0.55,
+      1.0
+    ],
+    "note": "低频：周期 2.6~5.2s，相位按 meta.particles[].pulse.phase 错开，避免整片同时呼吸（那是『爆发』不是『潜伏』）"
+  },
+  "sprites": {
+    "dim": "latent_particle_dim.png",
+    "normal": "latent_particle_normal.png",
+    "bright": "latent_particle_bright.png"
+  },
+  "placement": {
+    "rule": "程序自行撒点时同样要守三条禁区",
+    "no_membrane": "颗粒中心到细胞边缘距离 > 67px（0.20×内切半径）",
+    "no_vacuole": "颗粒中心到液泡边缘距离 > 12px",
+    "inside_only": "必须在 cell_body alpha>=250 的实心区内",
+    "min_spacing_px": 83.2
+  },
+  "particles": [
+    {
+      "index": 1,
+      "tier": "dim",
+      "centre": [
+        441.0,
+        754.0
+      ],
+      "sprite": "latent_particle_dim.png",
+      "pulse": {
+        "period_s": 4.83,
+        "phase": 1.763,
+        "alpha_min": 0.55
+      }
+    },
+    {
+      "index": 2,
+      "tier": "dim",
+      "centre": [
+        740.0,
+        561.0
+      ],
+      "sprite": "latent_particle_dim.png",
+      "pulse": {
+        "period_s": 3.9,
+        "phase": 2.537,
+        "alpha_min": 0.55
+      }
+    },
+    {
+      "index": 3,
+      "tier": "normal",
+      "centre": [
+        792.0,
+        532.0
+      ],
+      "sprite": "latent_particle_normal.png",
+      "pulse": {
+        "period_s": 3.63,
+        "phase": 0.131,
+        "alpha_min": 0.55
+      }
+    },
+    {
+      "index": 4,
+      "tier": "dim",
+      "centre": [
+        577.0,
+        944.0
+      ],
+      "sprite": "latent_particle_dim.png",
+      "pulse": {
+        "period_s": 2.68,
+        "phase": 2.506,
+        "alpha_min": 0.55
+      }
+    },
+    {
+      "index": 5,
+      "tier": "bright",
+      "centre": [
+        620.0,
+        910.0
+      ],
+      "sprite": "latent_particle_bright.png",
+      "pulse": {
+        "period_s": 3.15,
+        "phase": 5.398,
+        "alpha_min": 0.55
+      }
+    },
+    {
+      "index": 6,
+      "tier": "dim",
+      "centre": [
+        444.0,
+        492.0
+      ],
+      "sprite": "latent_particle_dim.png",
+      "pulse": {
+        "period_s": 2.93,
+        "phase": 0.319,
+        "alpha_min": 0.55
+      }
+    },
+    {
+      "index": 7,
+      "tier": "dim",
+      "centre": [
+        680.0,
+        644.0
+      ],
+      "sprite": "latent_particle_dim.png",
+      "pulse": {
+        "period_s": 4.13,
+        "phase": 6.277,
+        "alpha_min": 0.55
+      }
+    },
+    {
+      "index": 8,
+      "tier": "dim",
+      "centre": [
+        804.0,
+        817.0
+      ],
+      "sprite": "latent_particle_dim.png",
+      "pulse": {
+        "period_s": 3.75,
+        "phase": 0.097,
+        "alpha_min": 0.55
+      }
+    },
+    {
+      "index": 9,
+      "tier": "dim",
+      "centre": [
+        528.0,
+        440.0
+      ],
+      "sprite": "latent_particle_dim.png",
+      "pulse": {
+        "period_s": 2.73,
+        "phase": 5.353,
+        "alpha_min": 0.55
+      }
+    },
+    {
+      "index": 10,
+      "tier": "dim",
+      "centre": [
+        512.0,
+        873.0
+      ],
+      "sprite": "latent_particle_dim.png",
+      "pulse": {
+        "period_s": 4.9,
+        "phase": 5.86,
+        "alpha_min": 0.55
+      }
+    },
+    {
+      "index": 11,
+      "tier": "dim",
+      "centre": [
+        889.0,
+        741.0
+      ],
+      "sprite": "latent_particle_dim.png",
+      "pulse": {
+        "period_s": 4.39,
+        "phase": 4.186,
+        "alpha_min": 0.55
+      }
+    },
+    {
+      "index": 12,
+      "tier": "dim",
+      "centre": [
+        714.0,
+        888.0
+      ],
+      "sprite": "latent_particle_dim.png",
+      "pulse": {
+        "period_s": 3.34,
+        "phase": 0.063,
+        "alpha_min": 0.55
+      }
+    },
+    {
+      "index": 13,
+      "tier": "normal",
+      "centre": [
+        339.0,
+        619.0
+      ],
+      "sprite": "latent_particle_normal.png",
+      "pulse": {
+        "period_s": 5.14,
+        "phase": 1.222,
+        "alpha_min": 0.55
+      }
+    },
+    {
+      "index": 14,
+      "tier": "dim",
+      "centre": [
+        725.0,
+        470.0
+      ],
+      "sprite": "latent_particle_dim.png",
+      "pulse": {
+        "period_s": 3.04,
+        "phase": 4.646,
+        "alpha_min": 0.55
+      }
+    }
+  ],
+  "source": "程序生成 tools_make_latent_particles.py（seed=20261006）"
+}
