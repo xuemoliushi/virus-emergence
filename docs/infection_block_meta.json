@@ -1,0 +1,77 @@
+{
+  "canvas": 300,
+  "center": [
+    150.0,
+    150.0
+  ],
+  "anchor": "画布中心 = 附着点（和 infection_patch.png 完全同一套坐标，可直接替换）",
+  "sprite_frame": "+x = 沿细胞膜扩散方向；+y = 朝细胞内部",
+  "files": {
+    "infection_block_flat": "只主体 + 平涂单色 + 原浓淡（推荐直接用）",
+    "infection_block_only": "只主体 + 原素材颜色（保留纹理）",
+    "infection_block_solid": "只主体 + 平涂 + 实心化（引擎自己上渐变/染色时用）"
+  },
+  "block": {
+    "main_px": 9618,
+    "raw_main_px": 9341,
+    "dropped_specks": 251,
+    "dropped_specks_px": 1523,
+    "interior_pinholes_px": 277,
+    "area_gain_pct": 2.97,
+    "bbox": [
+      97,
+      104,
+      202,
+      244
+    ],
+    "size": [
+      106,
+      141
+    ]
+  },
+  "flat_rgb": [
+    227,
+    104,
+    4
+  ],
+  "flat_hex": "#E36804",
+  "palette": {
+    "core": {
+      "rgb": [
+        227,
+        104,
+        4
+      ],
+      "hex": "#E36804"
+    },
+    "densest": {
+      "rgb": [
+        210,
+        52,
+        1
+      ],
+      "hex": "#D23401"
+    },
+    "weighted": {
+      "rgb": [
+        227,
+        120,
+        24
+      ],
+      "hex": "#E37818"
+    }
+  },
+  "transparent_zone": "颜色外扩（最近可见像素）",
+  "clip": "和色斑一样：必须按细胞轮廓裁剪（乘同位置细胞 alpha）",
+  "size_guide": {
+    "rule": "精灵缩放 = 目标可见宽度 / 128；可见宽度 = 精灵画布尺寸 × 0.427",
+    "grown_patch_vis_px": 366,
+    "grown_patch_frac_of_cell": "细胞前景宽度的 45%（= 3.0 个病毒宽）",
+    "at_cell_240px": {
+      "visible_px": 109,
+      "sprite_scale": 0.85,
+      "sprite_canvas_px": 255
+    },
+    "note": "366px 是 2026-10-06 客户反馈「参考病毒比例大小，增大感染部分」后从 230px 提上来的（1.6x）；单看一个附着点仍是局部，7 个附着点才整细胞泛橙。尺寸梯子见 output/preview/patch_scale_ladder.png"
+  }
+}

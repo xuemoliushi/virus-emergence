@@ -1,0 +1,24 @@
+《病毒涌现》首批宣传图，2026-10-18
+
+生成方式：内置 image_gen 图像生成，使用本地项目图片作合成参考。输出为宣传演绎图，不标注为实机截图。原始素材与游戏代码未修改。
+交付目录：assets/image/promotion/20261018-first3
+
+提示词设定（中文整理，供后续统一系列风格）：
+共同要求：16:9 横版游戏宣传图；保留项目原有像素精灵的造型、配色和内部细节，暗蓝紫纤维组织背景、红色组织细胞、橙色病毒、灰蓝巨噬细胞、青色T细胞；中文标题清晰，米白与旧金色文字及细雕花装饰；不添加人物、商店标志、下载按钮、二维码或虚构奖项；不宣称为实机截图。
+
+01-感染与涌现.png
+画面：右侧大面积微观俯视细胞场景，病毒比细胞小，多群橙色病毒接近和吸附红色细胞膜，展示感染、释放和传播。左侧保留标题空间。
+文案：病毒涌现／从一次感染／到群体涌现／操控病毒群，建立你的感染网络／感染 · 扩散 · 群体策略。
+参考：assets/image/menu/tissue-menu-v1.png；assets/Sprites/cell_healthy_01.png；assets/image/integrated/virus_256.png；assets/image/macrophage_master02.png.png；assets/image/t_cell_master02.png.png。
+
+02-免疫围猎.png
+画面：大巨噬细胞从左侧追逐病毒群，病毒分成两路穿过红色细胞之间的空隙；小T细胞贴近组织细胞。青蓝与橙色对照，右上标题留白。无枪械、激光、电束、伤害数字。
+文案：病毒涌现／免疫围猎／分群突围／在追逐中分裂，在危机中生存／分裂 · 冲刺 · 诱饵 · 协同。
+参考：与01相同的5张项目原图。
+
+03-卡牌进化.png
+画面：右侧三张大尺寸机制卡，复制参考图的雕花卡框与插画，卡名从左到右为集群调度、离散回收、感染接力；底部红色细胞与三组橙色病毒，虚线示意协同。左侧标题。
+文案：病毒涌现／每一次进化／都改变战局／选择机制卡牌，构筑群体策略／三选一进化 · 多群协同。
+参考：assets/image/mechanism_cards/cluster_dispatch.png；assets/image/mechanism_cards/discrete_recall.png；assets/image/mechanism_cards/membrane_glide.png（项目当前对应感染接力）；assets/Sprites/cell_healthy_01.png；assets/image/integrated/virus_256.png。
+
+已检查三张输出的主体、中文文案与卡名。首批交付3张，剩余7张待用户查看风格后继续。

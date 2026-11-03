@@ -1,0 +1,38 @@
+{
+  "film_revision": 5,
+  "source_verified": true,
+  "source": "assets/video/emergence_final90/涌现_90秒_修订版.mp4",
+  "source_sha256": "24c8aae8bb6a267b065baf1afb3354eed63f890aad803d755bc950d2164596dc",
+  "file": "emergence90.mp4",
+  "sha256": "b43e48022239b251d280090fc03d0f7429401f8bd18e6a59e56bd4697ffde232",
+  "bytes": 63071395,
+  "faststart": true,
+  "video_audio_reencoded": false,
+  "media_payload_identical": true,
+  "patched_chunk_offsets": 4321,
+  "full_decode_ok": true,
+  "duration": 90,
+  "frames": 2160,
+  "atoms": [
+    {
+      "kind": "ftyp",
+      "offset": 0,
+      "bytes": 32
+    },
+    {
+      "kind": "free",
+      "offset": 32,
+      "bytes": 8
+    },
+    {
+      "kind": "moov",
+      "offset": 40,
+      "bytes": 47166
+    },
+    {
+      "kind": "mdat",
+      "offset": 47206,
+      "bytes": 63024189
+    }
+  ]
+}

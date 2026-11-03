@@ -1,0 +1,31 @@
+{
+  "canvas": 192,
+  "center": [
+    96.0,
+    96.0
+  ],
+  "contact": [
+    136.6362075805664,
+    119.75
+  ],
+  "glint_peak": [
+    142.30701754385964,
+    123.19298245614036
+  ],
+  "outward": [
+    0.8660253882408142,
+    0.5
+  ],
+  "r_rim": 47.5,
+  "source": "art/virus/virus_F2_B.png -> ÷11.2 -> 96px",
+  "light_side": "cell (glint 只落在病毒剪影之外)",
+  "draw_order": [
+    "cell",
+    "attachment_glint",
+    "virus_attached_particle"
+  ],
+  "clip": "attachment_glint 必须**按细胞轮廓裁剪**（采样时乘上细胞自己的 alpha）。否则在细胞轮廓的转角/突起处，光斑会有一小半挂到细胞外的背景上，半透明暖色压在近黑底上会变成脏褐色斑块（用户反馈的『亮光位置错了』）。",
+  "glint_size": "18x23 px（紧凑，峰值压在接触点上；**不要放大**）",
+  "particle_frac": 13.392470359802246,
+  "glint_frac": 2.6244425773620605
+}

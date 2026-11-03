@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-19",
+  "tool": "built-in image_gen",
+  "output_directory": "assets/image/promotion/20261019-title-only",
+  "requirements": "仅保留完整游戏标题病毒涌现，删除微观策略与群体涌现副标题；保持原有画面及尺寸，每张小于4000000字节。",
+  "specifications": [
+    {
+      "key": "Main",
+      "file": "宣传主图_仅游戏标题_1920x1080.jpg",
+      "width": 1920,
+      "height": 1080,
+      "prompt": "Use case: precise-object-edit / remove subtitle text only. Edit the supplied finished 16:9 Chinese game store promotional artwork. The ONLY text allowed anywhere in the output is the existing large four-character game title: 病毒涌现. Preserve this exact existing large title, its lettering, size, placement and gold style. Completely REMOVE the smaller subtitle line below the large title, which currently reads 微观策略 · 群体涌现, including ALL eight Chinese subtitle characters and its centered dot. Reconstruct the dark navy tissue background naturally behind those removed glyphs. You may preserve fine gold decorative lines and diamonds because they are ornament, not text, but no residual letter fragments may remain. Preserve exactly everything else: red cells, orange virus particles, blue immune cells, color saturation, exposure, texture, framing, all subject positions, pixel-art style and composition. No redesign, no recoloring, no extra objects, no new words, no Latin letters, no watermark. The finished artwork contains ONLY the four Chinese characters 病毒涌现 as text. Output a single landscape16:9 image, no comparison panels.",
+      "source": "C:\\Users\\admin\\.codex\\generated_images\\01a14ce9-6c44-7780-b3db-235c8c204d86\\exec-7d5fa2dc-31f6-43df-8655-951efccc21ac.png"
+    },
+    {
+      "key": "Portrait",
+      "file": "竖版封面_仅游戏标题_600x900.jpg",
+      "width": 600,
+      "height": 900,
+      "prompt": "Use case: precise-object-edit / remove subtitle text only. Edit the provided VERTICAL Chinese game store cover. The ONLY text allowed in the entire output is the existing four large Chinese title characters 病毒涌现. Preserve those exact large four title characters in their current gold lettering, font style, position and size. Completely REMOVE the smaller line below them reading 微观策略 · 群体涌现, removing all small Chinese letters and central dot. Restore the dark navy tissue background behind those glyphs. Fine gold lines and geometric diamond ornaments may stay; no residual word fragments. Preserve the original portrait2:3 composition and framing EXACTLY, including red host cell at lower right, amber virus particles, cyan immune cell, background fibers, all object positions, original color grading, light, shadows, crisp pixel-art texture, and depth of field. Do not shift or enlarge the title or redesign anything. No additional text, letters, logo, watermark or other written content. Single full portrait2:3 image, no comparison grid. Finished cover contains ONLY the game title 病毒涌现 as text.",
+      "source": "C:\\Users\\admin\\.codex\\generated_images\\01a14ce9-6c44-7780-b3db-235c8c204d86\\exec-0777c2f3-b033-4e5a-a46e-89fd301a1089.png"
+    }
+  ]
+}
